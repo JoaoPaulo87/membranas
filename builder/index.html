@@ -25,27 +25,6 @@
 
 	<!--================Header Menu Area =================-->
 	<header class="header_area">
-		<div class="top_menu row m0">
-			<div class="container">
-				<div class="float-left">
-					<ul class="list header_social">
-						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-						<li><a href="#"><i class="fa fa-behance"></i></a></li>
-					</ul>
-				</div>
-				<div class="float-right">
-					<select class="lan_pack">
-						<option value="1">English</option>
-						<option value="1">Bangla</option>
-						<option value="1">Indian</option>
-						<option value="1">Aus</option>
-					</select>
-					<a class="dn_btn" href="#">Free Quote!</a>
-				</div>
-			</div>
-		</div>
 		<div class="main_menu">
 			<nav class="navbar navbar-expand-lg navbar-light">
 				<div class="container">
@@ -61,9 +40,9 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 						<ul class="nav navbar-nav menu_nav ml-auto">
-							<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-							<li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li>
-							<li class="nav-item"><a class="nav-link" href="service.html">Services</a>
+							<li class="nav-item active"><a class="nav-link" href="index.html">Inicio</a></li>
+							<li class="nav-item"><a class="nav-link" id="DivIdToScroll">Sobre nosotros</a></li>
+							<li class="nav-item"><a class="nav-link" id="DivIdToScroll">Nuestros trabajos</a>
 							<li class="nav-item submenu dropdown">
 								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
 									aria-haspopup="true" aria-expanded="false">Pages</a>
@@ -118,70 +97,99 @@
 
 	<div class="boton boton-wsp"><a
 			href="https://wa.me/5492236683801?text=Hola!%20Me%20interesaria%20un%20presupuesto%20para%20un%20trabajo"><img
-				src="Imagenes/whatsapp.png">Wsp</a></div>
+				src="Imagenes/whatsapp.png"></a></div>
 
-	<div id="DivIdToScroll">Go to link
-		<div class="boton boton-phone"><img src="Imagenes/office-telephone.png">Tel</div>
+	<div id="DivIdToScroll">
+		<!-- Aca indico cuando clickea que vaya a la seccion de la misma pagina-->
+		<div class="boton boton-phone"><img src="Imagenes/office-telephone.png"></div>
 	</div>
 
 	<div class="boton boton-fb"><a href="https://www.facebook.com/COLOCACIONMEMBRANASMARDELPLATA/?ti=as"><img
-				src="Imagenes/facebook.png">Fb</a></div>
+				src="Imagenes/facebook.png"></a></div>
 
 	<div class="boton boton-ig"><a href="https://www.instagram.com/accounts/login/?hl=es-la"><img
-				src="Imagenes/instagramChico.png">Ig</a></div>
+				src="Imagenes/instagramChico.png"></a></div>
 
 	<!--==============End button fixed =================-->
 
 	<!--================Logos megaflex y cima ============-->
-	<div class="row mx-lg-4 mx-4">
-		<div class="container"></div>
-			<div class="col-6 pl-3">
-				<img source src="Imagenes/68e0a9_dd900dc7bcc14d998887f4b380a305e3_mv2.gif" type="logo">
-			</div>
-			<div class="col-6">
-				<img src="Imagenes/descarga.png" type="logo">
+
+	<section class="materiales">
+		<div class="container">
+			<div class="row justify-content-sm-center">
+				<div class="col-sm-auto my-sm-auto">
+					<img source src="Imagenes/megaflex.jpg" type="logo">
+				</div>
+				<div class="col-sm-auto">
+					<img src="Imagenes/68e0a9_dd900dc7bcc14d998887f4b380a305e3_mv2.gif" type="logo">
+				</div>
 			</div>
 		</div>
-	</div>
+		<div class="container descripcion">
+			<div class="row justify-content-sm-center">
+				<div class="col-sm-auto">
+					<h5>Materiales avalados con garantía escrita de 10 años</h5>
+					<h1>La mejor calidad con el respaldo de Megaflex y CIMA</h1>
+				</div>
+			</div>
+		</div>
+	</section>
 	<!--================End logos megaflex y cima =================-->
 
+
 	<!--================Services Area =================-->
+
+
+<!--Boton scroll down (scroll_div) cuando clickeas el boton de nuestros trabajos viene aca abajo -->
+<div id="scroll_div"></div>
+<!--========End boton scroll down (scroll_div) =========-->
+
 	<section class="services_area p_120">
 		<div class="container">
 			<div class="main_title">
 				<h2>Sobre nosotros</h2>
-				<p>Lorem ipsum dolor sit amet, consecteturadipis icing elit,</p>
+				<p>Servicio en colocación de membranas 100% responsable y eficiente</p>
 			</div>
 
 			<div class="row services_inner">
+
 				<div class="col-lg-4">
 					<div class="services_item">
 						<img src="img/icon/service-icon-1.png" alt="">
 						<a href="#">
-							<h4>Building Drawings</h4>
+							<h4>25 años de trayectoria en el rubro</h4>
 						</a>
-						<p>Lorem ipsum dolor sit amet, consecteturadipis icing elit, sed do eiusmod tempor incididunt ut
-							labore et dolore magna aliqua.</p>
+						<p>Estamos orientados en impermeabilizaciones de techos: losas y terrazas. Protegiendo el bien
+							material de su hogar y el de su familia, contra las lluvias y el deterioro que estas
+							ocasionan; evitando mayores costos de dinero con reparaciones internas de paredes y
+							cielorasos más costosas.
+						</p>
 					</div>
 				</div>
 				<div class="col-lg-4">
 					<div class="services_item">
 						<img src="img/icon/service-icon-2.png" alt="">
 						<a href="#">
-							<h4>Painting Constructions</h4>
+							<h4>Soluciones reales</h4>
 						</a>
-						<p>Lorem ipsum dolor sit amet, consecteturadipis icing elit, sed do eiusmod tempor incididunt ut
-							labore et dolore magna aliqua.</p>
+						<p>Realice su trabajo con aplicadores capacitados. Cumplimos con todas las normas de aplicación
+							y seguridad para un trabajo seguro, garantizando por escrito soluciones definitivas a
+							goteras y filtraciones. Nuestra amplia experiencia y profesionales
+							capacitados le asegura un trabajo con la calidad y garantia que su familia y ud. merecen.
+						</p>
 					</div>
 				</div>
 				<div class="col-lg-4">
 					<div class="services_item">
 						<img src="img/icon/service-icon-3.png" alt="">
 						<a href="#">
-							<h4>Repairing Constructions</h4>
+							<h4>¡Garantia por escrito!</h4>
 						</a>
-						<p>Lorem ipsum dolor sit amet, consecteturadipis icing elit, sed do eiusmod tempor incididunt ut
-							labore et dolore magna aliqua.</p>
+						<p> Brindamos soluciones definitivas a
+							filtraciones y goteras,con el empleo de materiales en productos de primera calidad
+							respaldados por Megaflex y Cima, avalados con garantía escrita de 10 años nos destacamos en
+							la colocación de membranas asfálticas con aluminio color para techos y geo-textil,
+							transitables para terrazas.</p>
 					</div>
 				</div>
 			</div>
@@ -190,10 +198,14 @@
 	<!--================End Services Area =================-->
 
 	<!--================Builder Image Area =================-->
+
+	<!--Boton scroll down (scroll_div) cuando clickeas el boton de nuestros trabajos viene aca abajo -->
+	<div id="scroll_div"></div>
+	<!--========End boton scroll down (scroll_div) =========-->
 	<section class="builder_area">
 		<div class="main_title">
-			<h2>Our Latest Projects</h2>
-			<p>Who are in extremely love with eco friendly system.</p>
+			<h2>Nuestros trabajos</h2>
+			<p> Brindamos un servicio profesional y confiable, en la calidad de nuestra mano de obra.</p>
 		</div>
 		<div class="row m0 builder_inner">
 			<div class="builder_item">
@@ -483,8 +495,11 @@
 								incididunt ut labore dolore magna aliqua.</p>
 						</div>
 					</div>
+
 					<!--=====Boton scroll down (scroll_div) cuando clickeas el logo del tel viene aca abajo=====-->
-					<div id="scroll_div">Content</div>
+					<div id="scroll_div"></div>
+					<!--========End boton scroll down (scroll_div) =========-->
+
 					<div class="col-lg-3 col-md-6 col-sm-6">
 						<div class="single-footer-widget contact_wd">
 							<h6 class="footer_title">Contact Us</h6>
