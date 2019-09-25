@@ -1,0 +1,35 @@
+<!-- start banner Area -->
+	<section class="banner-area relative">
+		<div class="container w-100 py-1">
+			<div class="flexslider">
+				<ul class="slides">
+					<li>
+						<img src="assets/images/europe-1.jpeg" alt="">
+						<section class="caption">
+							<h2>Europa</h2>
+						</section>
+					</li>
+					<li>
+						<img src="assets/images/india-1.jpg" alt="">
+						<section class="caption">
+							<h2>India</h2>
+						</section>
+					</li>
+					<li>
+						<img src="assets/images/caribe.jpg" alt="">
+						<section class="caption">
+							<h2>Caribe</h2>
+						</section>
+					</li>
+					<li>
+						<img src="assets/images/arg-2.jpg" alt="">
+						<section class="caption">
+							<h2>Argentina </h2>
+						</section>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+	</section>
+	<!-- End banner Area -->
