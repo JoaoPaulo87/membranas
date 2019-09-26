@@ -50,13 +50,13 @@
 						<ul class="nav navbar-nav menu_nav ml-auto">
 							<li class="nav-item active"><a class="nav-link" href="index.html">Inicio</a></li>
 							<li class="nav-item"><a class="nav-link" id="DivIdToScrollNosotros">Sobre nosotros</a></li>
-							<li class="nav-item"><a class="nav-link" id="DivIdToScrollTrabajos">Nuestros trabajos</a>
+							<li class="nav-item"><a class="nav-link">Galeria</a>
 							<li class="nav-item submenu dropdown">
 								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
-									aria-haspopup="true" aria-expanded="false">Pages</a>
+									aria-haspopup="true" aria-expanded="false">Nuestros trabajos</a>
 								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="projects.html">Projects</a>
-									<li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
+									<li class="nav-item"><a class="nav-link" id="DivIdToScrollMembrana">Membrana</a>
+									<li class="nav-item"><a class="nav-link" id="DivIdToScrollPintura">Pintura</a></li>
 								</ul>
 							</li>
 							<li class="nav-item submenu dropdown">
@@ -69,7 +69,7 @@
 								</ul>
 							</li>
 
-							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+							<li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
 							<li class="nav-item"><a href="#" class="search"><i class="lnr lnr-magnifier"></i></a></li>
@@ -81,6 +81,12 @@
 	</header>
 	<!--================Header Menu Area =================-->
 
+	<!--====================== Slider =========================-->
+
+	<!--============== End Slider =========================-->
+
+
+
 	<!--================Home Banner Area =================-->
 	<section class="home_banner_area">
 		<div class="banner_inner d-flex align-items-center">
@@ -88,10 +94,10 @@
 				data-background=""></div>
 			<div class="container">
 				<div class="banner_content text-center">
-					<h3>Build Your <span>Dream</span></h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut
-						labore et dolore magna aliqua. Ut enim ad minim.</p>
-					<a class="black_btn" href="#">Discover Now</a>
+					<h3>Proteja su <span>hogar</span></h3>
+					<p>Le garantizamos la solución de fisuras en su hogar. Proteja su familia antes que las lluvias
+						arruinen lo suyo </p>
+					<a class="black_btn" id="DivIdToScrollLluvia">¿Cuando llueve?</a>
 				</div>
 			</div>
 		</div>
@@ -127,28 +133,28 @@
 
 				<!-- Modal body -->
 				<div class="modal-body">
-				<div class="container" style="">
+					<div class="container">
 
-					<div class="fb-page"
-						data-href="https://www.facebook.com/pg/COLOCACIONMEMBRANASMARDELPLATA/services/?ref=page_internal"
-						data-tabs="timeline" data-width="450" data-height="700" data-small-header="false"
-						data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
-						<blockquote
-							cite="https://www.facebook.com/pg/COLOCACIONMEMBRANASMARDELPLATA/services/?ref=page_internal"
-							class="fb-xfbml-parse-ignore"><a
-								href="https://www.facebook.com/pg/COLOCACIONMEMBRANASMARDELPLATA/services/?ref=page_internal">Membranas
-								Mar del Plata</a></blockquote>
+						<div class="fb-page"
+							data-href="https://www.facebook.com/pg/COLOCACIONMEMBRANASMARDELPLATA/services/?ref=page_internal"
+							data-tabs="timeline" data-width="450" data-height="700" data-small-header="false"
+							data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+							<blockquote
+								cite="https://www.facebook.com/pg/COLOCACIONMEMBRANASMARDELPLATA/services/?ref=page_internal"
+								class="fb-xfbml-parse-ignore"><a
+									href="https://www.facebook.com/pg/COLOCACIONMEMBRANASMARDELPLATA/services/?ref=page_internal">Membranas
+									Mar del Plata</a></blockquote>
+						</div>
 					</div>
 				</div>
-			</div>
 
-			<!-- Modal footer -->
-			<div class="modal-footer">
-				<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-			</div>
+				<!-- Modal footer -->
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+				</div>
 
+			</div>
 		</div>
-	</div>
 	</div>
 
 
@@ -185,7 +191,7 @@
 	<!--================Services Area =================-->
 
 
-	<!--Boton scroll down (scroll_div) cuando clickeas el boton de nuestros trabajos viene aca abajo -->
+	<!--Boton scroll down (scroll_div) cuando clickeas el boton de nosotros viene aca abajo -->
 	<div id="scroll_div_nosotros"></div>
 	<!--========End boton scroll down (scroll_div) =========-->
 
@@ -245,10 +251,10 @@
 	<!--================Builder Image Area =================-->
 
 	<!--Boton scroll down (scroll_div) cuando clickeas el boton de nuestros trabajos viene aca abajo -->
-	<div id="scroll_div_trabajos"></div>
+	<div id="scroll_div_membrana"></div>
 	<!--========End boton scroll down (scroll_div) =========-->
 	<section class="builder_area">
-		<div class="main_title">
+		<div class="main_title" id="scroll_div_pintura">
 			<h2>Nuestros trabajos</h2>
 			<p> Brindamos un servicio profesional y confiable, en la calidad de nuestra mano de obra.</p>
 		</div>
@@ -550,7 +556,7 @@
 							<h6 class="footer_title">Contacto</h6>
 							<p>Ciudad de Mar del plata, Partido Gral. Pueyrredon. Buenos Aires, Argentina.</p>
 							<a href="tel:01265325689746">223-679746</a>
-							<a href="tel:01265325689746">012-6532-568-9746</a>
+							<a href="tel:01265325689746">223-679543</a>
 						</div>
 					</div>
 					<div class="col-lg-5 col-md-6 col-sm-6 offset-lg-1">
@@ -573,6 +579,9 @@
 								}(document, 'script', 'weatherwidget-io-js');
 							</script>
 							<!--=======End API weather Mar del plata =========-->
+							<!--Boton scroll down (scroll_div) cuando clickeas el boton de ¿Cuando llueve? viene aca abajo -->
+							<div id="scroll_div_lluvia"></div>
+							<!--========End boton scroll down (scroll_div) =========-->
 							<div class="mt-10 info"></div>
 							</form>
 						</div>

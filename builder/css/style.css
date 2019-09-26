@@ -4142,6 +4142,7 @@ h6 {
   line-height: 32px;
   text-transform: uppercase;
   float: left;
+  z-index: 2;
 }
 
 .boton:hover {
@@ -4183,12 +4184,6 @@ h6 {
   padding: 5px;
 
 }
-
-/*
-Css del slider-carroussell 
-*/
-
-
 
 /*---------------------------------------------------- */
 
