@@ -53,12 +53,12 @@
 						<ul class="nav navbar-nav menu_nav ml-auto">
 							<li class="nav-item active"><a class="nav-link" href="index.html">Inicio</a></li>
 							<li class="nav-item"><a class="nav-link" id="DivIdToScrollNosotros">Sobre nosotros</a></li>
-							<li class="nav-item"><a class="nav-link">Galeria</a>
 							<li class="nav-item submenu dropdown">
 								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
 									aria-haspopup="true" aria-expanded="false">Nuestros trabajos</a>
 								<ul class="dropdown-menu">
 									<li class="nav-item"><a class="nav-link" href="./elements.html">Membrana</a>
+									</li>
 									<li class="nav-item"><a class="nav-link" href="./elements-pintura.html">Pintura</a>
 									</li>
 								</ul>
@@ -86,7 +86,8 @@
 	<!--================Header Menu Area =================-->
 
 	<!--====================== Slider =========================-->
-	<div id="demo" class="carousel slide" data-ride="carousel">
+	<div class="container">
+	<div id="demo" class="carousel slide col-sm-auto" data-ride="carousel">
 
 		<!-- Indicators -->
 		<ul class="carousel-indicators">
@@ -96,7 +97,7 @@
 		</ul>
 
 		<!-- The slideshow -->
-		<div class="carousel-inner">
+		<div class="carousel-inner container">
 			<div class="carousel-item active">
 				<img src="Imagenes/WhatsApp Image 2019-09-25 at 09.38.09 (1).jpeg" alt="Los Angeles" width="800"
 					height="400">
@@ -117,6 +118,7 @@
 			<span class="carousel-control-next-icon"></span>
 		</a>
 	</div>
+</div>
 
 	<!--============== End Slider =========================-->
 
@@ -148,8 +150,8 @@
 				</div>
 
 				<!-- Modal body -->
-				<div class="modal-body">
-					<div class="container">
+				<div class="container">
+					<div class="modal-body">
 
 						<div class="fb-page"
 							data-href="https://www.facebook.com/pg/COLOCACIONMEMBRANASMARDELPLATA/services/?ref=page_internal"
@@ -181,8 +183,8 @@
 
 	<!--================Logos megaflex y cima ============-->
 
-	<section class="materiales">
-		<div class="container">
+	<section class="container">
+		<div class="materiales">
 			<div class="row justify-content-sm-center">
 				<div class="col-sm-auto my-sm-auto">
 					<img source src="Imagenes/megaflex.jpg" type="logo">
@@ -204,16 +206,19 @@
 	<!--================End logos megaflex y cima =================-->
 
 	<!--================Home Banner Area =================-->
-	<section class="home_banner_area">
-		<div class="banner_inner d-flex align-items-center">
-			<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0"
-				data-background=""></div>
-			<div class="container">
-				<div class="banner_content text-center">
-					<h3>Proteja su <span>hogar</span></h3>
-					<p>Le garantizamos la solución de fisuras en su hogar. Proteja su familia antes que las lluvias
-						arruinen lo suyo </p>
-					<a class="black_btn" id="DivIdToScrollLluvia">¿Cuando llueve?</a>
+
+	<section class="container">
+		<div class="home_banner_area">
+			<div class="banner_inner d-flex align-items-center">
+				<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0"
+					data-background=""></div>
+				<div class="container">
+					<div class="banner_content text-center">
+						<h3>Proteja su <span>hogar</span></h3>
+						<p>Le garantizamos la solución de fisuras en su hogar. Proteja su familia antes que las lluvias
+							arruinen lo suyo </p>
+						<a class="black_btn" id="DivIdToScrollLluvia">¿Cuando llueve?</a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -227,7 +232,7 @@
 	<div id="scroll_div_nosotros"></div>
 	<!--========End boton scroll down (scroll_div) =========-->
 
-	<section class="video-box">
+	<section class="video-box ">
 		<div class="container">
 			<div class="row pt-sm-5">
 				<div class="texto-video col-sm-6 justify-content-sm-center pt-sm-5 pl-sm-5">
