@@ -1839,7 +1839,7 @@ button:focus {
 /*----------------------------------------------------*/
 /* Clients Logo Area css
 ============================================================================================ */
-.clients_logo_area .clients_slider .item {
+.clients_area .clients_slider .item {
   text-align: center;
 }
 
@@ -4308,6 +4308,11 @@ img.imagenesp{
   height: 400px;
 }
 
+img.logo2{
+
+  width: 50%;
+  height: 100px;
+}
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */

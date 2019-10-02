@@ -20,18 +20,13 @@
 	<link rel="stylesheet" href="css/responsive.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
 
 
 </head>
 
 <body>
-	<!-- script para facebook-modal -->
-	<div id="fb-root"></div>
-	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v4.0">
-	</script>
+
 	<!-- end script para facebook-modal -->
 
 	<!--================Header Menu Area =================-->
@@ -40,8 +35,7 @@
 			<nav class="navbar navbar-expand-lg navbar-light">
 				<div class="container py-2">
 					<!-- Brand and toggle get grouped for better mobile display -->
-					<a class="navbar-brand logo_h" href="index.html"><img src="Imagenes/fav-icon/logo-122x122x.png"
-							alt=""></a>
+					<a class="navbar-brand logo_h" href="index.html"><img src="./img/LOGO4.png" alt=""></a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse"
 						data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
 						aria-expanded="false" aria-label="Toggle navigation">
@@ -127,18 +121,20 @@
 	<!--================Buttons fixed =================-->
 
 	<div class="boton boton-wsp"><a
-			href="https://wa.me/5492236683801?text=Hola!%20Me%20interesaria%20un%20presupuesto%20para%20un%20trabajo"><img
+		target=_blank	
+		href="https://wa.me/5492236683801?text=Hola!%20Me%20interesaria%20un%20presupuesto%20para%20un%20trabajo"><img
 				src="Imagenes/whatsapp.png"></a></div>
 
 	<div id="DivIdToScrollTel">
 		<!-- Aca indico cuando clickea que vaya a la seccion de la misma pagina-->
-		<div class="boton boton-phone"><img src="Imagenes/office-telephone.png"></div>
+		<div class="boton boton-phone"><img href="tel:+5492236843335" src="Imagenes/office-telephone.png">
+		</div>
 	</div>
 
 	<div class="boton boton-fb" data-toggle="modal" data-target="#myModal"><img src="Imagenes/facebook.png">
 	</div>
 	</div>
-
+	<div id="fb-root"></div>
 	<!-- The Modal -->
 	<div class="modal fade" id="myModal">
 		<div class="modal-dialog">
@@ -179,7 +175,9 @@
 	</div>
 
 
-	<div class="boton boton-ig"><a href="https://www.instagram.com/membranasmardelplata/"><img
+	<div class="boton boton-ig"><a 
+		target=_blank
+		href="https://www.instagram.com/membranasmardelplata/"><img
 				src="Imagenes/instagramChico.png"></a></div>
 
 	<!--==============End button fixed =================-->
@@ -372,10 +370,10 @@
 		<!--================End Builder Image Area =================-->
 
 		<!--================Team Area =================-->
-		<section class="team_area p_120">
+		<!-- <section class="team_area p_120">
 			<div class="container">
 				<div class="main_title">
-					<!-- <h2>Trabajos de pintura</h2>
+					 <h2>Trabajos de pintura</h2>
 					<p>Conta con la calidad profesionales calificados</p>
 				</div>
 				<div class="row team_inner">
@@ -443,10 +441,10 @@
 							</div>
 						</div>
 					</div>
-				</div> -->
+				</div> 
 				</div>
-		</section>
-		<!--================End Team Area =================-->
+		</section> 
+		================End Team Area =================-->
 
 		<!--================Counter Area =================-->
 		<!-- <section class="counter_area">
@@ -608,7 +606,9 @@
 						<br>
 						<br>
 						<h4 style="color: white;">Contador de visitas</h4>
-						<a href="https://www.cerotec.net/estadisticas-129270/membranasmardelplata.com" title="mis estadísticas"><img src="https://www.cerotec.net/contador.php?t=5&s=5&i=129270" alt="www.cerotec.net"></a> 
+						<a href="https://www.cerotec.net/estadisticas-129270/membranasmardelplata.com"
+							title="mis estadísticas"><img src="https://www.cerotec.net/contador.php?t=5&s=5&i=129270"
+								alt="www.cerotec.net"></a>
 					</div>
 
 					<!--=====Boton scroll down (scroll_div) cuando clickeas el logo del tel viene aca abajo=====-->
@@ -671,6 +671,11 @@
 
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<!-- script para facebook-modal -->
+
+		<script async defer crossorigin="anonymous"
+			src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v4.0">
+			</script>
 		<script src="js/jquery-3.2.1.min.js"></script>
 		<script src="js/popper.js"></script>
 		<script src="js/bootstrap.min.js"></script>
@@ -685,6 +690,9 @@
 		<script src="vendors/counter-up/jquery.counterup.js"></script>
 		<script src="js/mail-script.js"></script>
 		<script src="js/theme.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 
 </html>
