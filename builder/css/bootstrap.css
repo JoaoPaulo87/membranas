@@ -8372,3 +8372,10 @@ a.text-dark:focus, a.text-dark:hover {
   visibility: hidden !important;
 }
 /*# sourceMappingURL=bootstrap.css.map */
+@media (min-width: 576px){
+.col-sm-6{
+ms flex: 0 0 50%;
+flex: 0 0 25%;
+max-width:46%;
+}
+}

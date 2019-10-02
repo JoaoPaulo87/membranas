@@ -4312,7 +4312,7 @@ img.imagenesp{
 
 /*# sourceMappingURL=style.css.map */
 
-@media (min-width: 576px) {  
+@media (max-width: 576px) {  
   .container {  
     max-width: 540px;}  
 
@@ -4321,12 +4321,15 @@ img.imagenesp{
       justify-content: center;
       position: relative;
     }
-
+    .video-box .container{
+      min-height: 750px;}
     
   }
   
   
 }  
+
+
   
 @media (min-width: 768px) {  
   .container {  
@@ -4359,3 +4362,10 @@ img.imagenesp{
     max-width: 1140px;  
   }  
 }  
+
+.col-sm-6-s{
+  flex: 0 0 25%;
+  max-width:50%;
+  }
+
+
