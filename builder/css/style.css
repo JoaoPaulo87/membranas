@@ -4373,4 +4373,25 @@ img.logo2{
   max-width:50%;
   }
 
+  @media (max-width: 992px) {
+    .carousel-item 
+    {
+    height: 20vh !important;
+    }
+  }
+  
+  .carousel-item {
+    height: 165vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .portfolio-item {
+    margin-bottom: 30px;
+  }
+
 
