@@ -28,70 +28,58 @@
 <body>
 
 	<!--================Header Menu Area =================-->
-	<header class="header_area">
-		<div class="main_menu">
-			<nav class="navbar navbar-expand-lg navbar-light">
-				<div class="container py-2">
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<a class="navbar-brand logo_h" href="index.html"><img src="./img/LOGO4.png"
-							alt=""></a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse"
-						data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-						aria-expanded="false" aria-label="Toggle navigation">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-						<ul class="nav navbar-nav menu_nav ml-auto">
-							<li class="nav-item active"><a class="nav-link" href="index.html">Inicio</a></li>
-							<li class="nav-item"><a class="nav-link" id="DivIdToScrollNosotros">Sobre nosotros</a></li>
-							<!-- <li class="nav-item"><a class="nav-link">Galeria</a> -->
-							<li class="nav-item submenu dropdown">
-								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
-									aria-haspopup="true" aria-expanded="false">Nuestros trabajos</a>
-								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" id="DivIdToScrollMembrana"
-											href="./elements.html">Membrana</a>
-									<li class="nav-item"><a class="nav-link" id="DivIdToScrollPintura"
-											href="./elements-pintura.html">Pintura</a></li>
-								</ul>
-							</li>
-							<!-- <li class="nav-item submenu dropdown">
-								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
-									aria-haspopup="true" aria-expanded="false">Blog</a>
-								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-									<li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a>
-									</li>
-								</ul>
-							</li> -->
+	<div class="main_menu header_area">
+		<nav class="navbar navbar-expand-lg navbar-light ">
+			<div class="container py-2">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<a class="navbar-brand logo_h" href="index.html"><img src="./img/LOGO4.png" alt=""></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse"
+					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+					<ul class="nav navbar-nav menu_nav ml-auto">
+						<li class="nav-item active"><a class="nav-link" href="index.html">Inicio</a></li>
+						<li class="nav-item"><a class="nav-link" id="DivIdToScrollNosotros">Sobre nosotros</a></li>
+						<!-- <li class="nav-item"><a class="nav-link">Galeria</a> -->
+						<li class="nav-item submenu dropdown">
+							<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
+								aria-haspopup="true" aria-expanded="false">Nuestros trabajos</a>
+							<ul class="dropdown-menu">
+								<li class="nav-item"><a class="nav-link" href="./elements.html">Membrana</a>
+								</li>
+								<li class="nav-item"><a class="nav-link" href="./elements-pintura.html">Pintura</a>
+								</li>
+							</ul>
+						</li>
 
-							<li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
-						</ul>
-						<ul class="nav navbar-nav navbar-right">
-							<li class="nav-item"><a href="#" class="search"><i class="lnr lnr-magnifier"></i></a></li>
-						</ul>
-					</div>
+						<li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
+					</ul>
 				</div>
-			</nav>
-		</div>
-	</header>
+			</div>
+		</nav>
+	</div>
+
 	<!--================Header Menu Area =================-->
 
 	<!--================Home Banner Area =================-->
-	<section class="banner_area">
-		<div class="banner_inner d-flex align-items-center">
-			<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0"
-				data-background=""></div>
-			<div class="container">
-				<div class="banner_content text-center">
-					<h2>GALERIA DE FOTOS</h2>
-					<h4>COLOCACION DE MEMBRANAS</h4>
-					<div class="page_link">
-						<a href="index.html">Inicio</a>
-						<a href="elements.html">Membranas</a>
+	<section class="background: url(../img/Membranas_mdp/pinturas/collage.jpg);">
+		<div class="banner_area">
+			<div class="banner_inner d-flex align-items-center membrana">
+				<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0"
+					data-background=""></div>
+				<div class="container">
+					<div class="banner_content text-center">
+						<h2>GALERIA DE FOTOS</h2>
+						<h4 style="color: white;">COLOCACION DE MEMBRANAS</h4>
+						<div class="page_link">
+							<a href="index.html">Inicio</a>
+							<a href="elements.html">Membranas</a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -109,28 +97,32 @@
 		<ul class="galeria">
 			<li><a href="#img1"><img src="./img/Membranas_mdp/membranas/aluminio_color/IMG-20190922-WA0136.jpg"></a>
 			</li>
-			<li><a href="#img2"><img src="./img/Membranas_mdp/membranas/aluminio_color/IMG-20190922-WA0138.jpg"></a></li>
+			<li><a href="#img2"><img src="./img/Membranas_mdp/membranas/aluminio_color/IMG-20190922-WA0138.jpg"></a>
+			</li>
 			<li><a href="#img3"><img src="./img/Membranas_mdp/membranas/aluminio_color/IMG-20190922-WA0160.jpg"></a>
 			</li>
 			<li><a href="#img4"><img src="./img/Membranas_mdp/membranas/aluminio_color/IMG-20190922-WA0172.jpg"></a>
 			</li>
 			<li><a href="#img5"><img src="./img/Membranas_mdp/membranas/aluminio_color/IMG-20190922-WA0140.jpg"></a>
 			</li>
-			<li><a href="#img6"><img src="./img/Membranas_mdp/membranas/aluminio_color/IMG-20190922-WA0166.jpg"></a></li>
+			<li><a href="#img6"><img src="./img/Membranas_mdp/membranas/aluminio_color/IMG-20190922-WA0166.jpg"></a>
+			</li>
 			<li><a href="#img7"><img src="./img/Membranas_mdp/membranas/aluminio_color/IMG-20190922-WA0171.jpg"></a>
 			</li>
 			<li><a href="#img8"><img src="./img/Membranas_mdp/membranas/aluminio_color/IMG-20190922-WA0176.jpg"></a>
 			</li>
 			<li><a href="#img9"><img src="./img/Membranas_mdp/membranas/aluminio_color/IMG-20190922-WA0217.jpg"></a>
 			</li>
-			<li><a href="#img10"><img src="./img/Membranas_mdp/membranas/aluminio_color/IMG-20190922-WA0221.jpg"></a></li>
+			<li><a href="#img10"><img src="./img/Membranas_mdp/membranas/aluminio_color/IMG-20190922-WA0221.jpg"></a>
+			</li>
 			<li><a href="#img11"><img src="./img/Membranas_mdp/membranas/aluminio_color/IMG-20190922-WA0224.jpg"></a>
 			</li>
 			<li><a href="#img12"><img src="./img/Membranas_mdp/membranas/aluminio_color/IMG-20190922-WA0225.jpg"></a>
 			</li>
 			<li><a href="#img13"><img src="./img/Membranas_mdp/membranas/aluminio_color/IMG-20190922-WA0232.jpg"></a>
 			</li>
-			<li><a href="#img14"><img src="./img/Membranas_mdp/membranas/aluminio_color/IMG-20190922-WA0233.jpg"></a></li>
+			<li><a href="#img14"><img src="./img/Membranas_mdp/membranas/aluminio_color/IMG-20190922-WA0233.jpg"></a>
+			</li>
 			<li><a href="#img15"><img src="./img/Membranas_mdp/membranas/aluminio_color/IMG-20190922-WA0234.jpg"></a>
 			</li>
 			<li><a href="#img16"><img src="./img/Membranas_mdp/membranas/aluminio_color/IMG-20190922-WA0237.jpg"></a>
@@ -291,541 +283,584 @@
 
 		<!-- =============== End galeria aluminio color ================= -->
 
+		<!--==================== Galeria alumionio color=====================-->
+		<section class="body_background">
+			<div class="title text-center">
+				<h1 class="mb-10 texto_2">Chapa</h1>
+
+			</div>
+
+			<ul class="galeria">
+				<li><a href="#img17"><img src="./img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0123.jpg"></a>
+				</li>
+				<li><a href="#img18"><img src="./img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0124.jpg"></a></li>
+				<li><a href="#img19"><img src="./img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0128.jpg"></a>
+				</li>
+				<li><a href="#img20"><img src="./img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0131.jpg"></a>
+				</li>
+				<li><a href="#img21"><img src="./img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0135.jpg"></a>
+				</li>
+				<li><a href="#img22"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0146.jpg"></a></li>
+				<li><a href="#img23"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0147.jpg"></a>
+				</li>
+				<li><a href="#img24"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0149.jpg"></a>
+				</li>
+				<li><a href="#img25"><img src="./img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0161.jpg"></a>
+				</li>
+				<li><a href="#img26"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0164.jpg"></a></li>
+				<li><a href="#img27"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0183.jpg"></a>
+				</li>
+				<li><a href="#img28"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0187.jpg"></a>
+				</li>
+				<li><a href="#img29"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0188.jpg"></a>
+				</li>
+				<li><a href="#img30"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0203.jpg"></a></li>
+				<li><a href="#img31"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0241.jpg"></a>
+				</li>
+				<li><a href="#img32"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190923-WA0004.jpg"></a>
+				</li>
+			</ul>
+
+
+			<div class="modal" id="img17">
+				<h3>Membranas</h3>
+				<div class="imagen">
+					<a href="#img16">&#60;</a>
+					<a href="#img18"><img src="./img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0123.jpg"></a>
+					<a href="#img18">></a>
+				</div>
+				<a class="cerrar" href="">X</a>
+			</div>
+
+			<div class="modal" id="img18">
+				<h3>las mejores marcas</h3>
+				<div class="imagen">
+					<a href="#img17">&#60;</a>
+					<a href="#img19"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0124.jpg"></a>
+					<a href="#img19">></a>
+				</div>
+				<a class="cerrar" href="">X</a>
+			</div>
+
+			<div class="modal" id="img19">
+				<h3> El mejor precio</h3>
+				<div class="imagen">
+					<a href="#img20">&#60;</a>
+					<a href="#img18"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0128.jpg"></a>
+					<a href="#img18">></a>
+				</div>
+				<a class="cerrar" href="">X</a>
+			</div>
+
+			<div class="modal" id="img20">
+				<h3>CONTACTANOS</h3>
+				<div class="imagen">
+					<a href="#img19">&#60;</a>
+					<a href="#img21"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0131.jpg"></a>
+					<a href="#img21">></a>
+				</div>
+				<a class="cerrar" href="">X</a>
+			</div>
+			<div class="modal" id="img21">
+				<h3>los numero 1 en la ciudad</h3>
+				<div class="imagen">
+					<a href="#img20">&#60;</a>
+					<a href="#img22"><img src="./img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0135.jpg"></a>
+					<a href="#img22">></a>
+				</div>
+				<a class="cerrar" href="">X</a>
+			</div>
+			<div class="modal" id="img22">
+				<h3>Productos de calidad</h3>
+				<div class="imagen">
+					<a href="#img21">&#60;</a>
+					<a href="#img23"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0146.jpg"></a>
+					<a href="#img23">></a>
+				</div>
+				<a class="cerrar" href="">X</a>
+			</div>
+			<div class="modal" id="img23">
+				<h3>Llamanos y te asesoramos</h3>
+				<div class="imagen">
+					<a href="#img22">&#60;</a>
+					<a href="#img24"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0147.jpg"></a>
+					<a href="#img24">></a>
+				</div>
+				<a class="cerrar" href="">X</a>
+			</div>
+			<div class="modal" id="img24">
+				<h3></h3>
+				<div class="imagen">
+					<a href="#img23">&#60;</a>
+					<a href="#img25"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0149.jpg"></a>
+					<a href="#img25">></a>
+				</div>
+				<a class="cerrar" href="">X</a>
+			</div>
+			<div class="modal" id="img25">
+				<h3>Membranas</h3>
+				<div class="imagen">
+					<a href="#img24">&#60;</a>
+					<a href="#img26"><img src="./img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0161.jpg"></a>
+					<a href="#img26">></a>
+				</div>
+				<a class="cerrar" href="">X</a>
+			</div>
+
+			<div class="modal" id="img26">
+				<h3>las mejores marcas</h3>
+				<div class="imagen">
+					<a href="#img25">&#60;</a>
+					<a href="#img27"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0164.jpg"></a>
+					<a href="#img27">></a>
+				</div>
+				<a class="cerrar" href="">X</a>
+			</div>
+
+			<div class="modal" id="img27">
+				<h3> El mejor precio</h3>
+				<div class="imagen">
+					<a href="#img26">&#60;</a>
+					<a href="#img28"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0183.jpg"></a>
+					<a href="#img28">></a>
+				</div>
+				<a class="cerrar" href="">X</a>
+			</div>
+
+			<div class="modal" id="img28">
+				<h3>CONTACTANOS</h3>
+				<div class="imagen">
+					<a href="#img27">&#60;</a>
+					<a href="#img29"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0187.jpg"></a>
+					<a href="#img29">></a>
+				</div>
+				<a class="cerrar" href="">X</a>
+			</div>
+			<div class="modal" id="img29">
+				<h3>los numero 1 en la ciudad</h3>
+				<div class="imagen">
+					<a href="#img28">&#60;</a>
+					<a href="#img30"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0188.jpg"></a>
+					<a href="#img30">></a>
+				</div>
+				<a class="cerrar" href="">X</a>
+			</div>
+			<div class="modal" id="img30">
+				<h3>Productos de calidad</h3>
+				<div class="imagen">
+					<a href="#img29">&#60;</a>
+					<a href="#img31"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0203.jpg"></a>
+					<a href="#img31">></a>
+				</div>
+				<a class="cerrar" href="">X</a>
+			</div>
+			<div class="modal" id="img31">
+				<h3>Llamanos y te asesoramos</h3>
+				<div class="imagen">
+					<a href="#img30">&#60;</a>
+					<a href="#img32"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0241.jpg"></a>
+					<a href="#img32">></a>
+				</div>
+				<a class="cerrar" href="">X</a>
+			</div>
+			<div class="modal" id="img32">
+				<h3></h3>
+				<div class="imagen">
+					<a href="#img31">&#60;</a>
+					<a href="#img33"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190923-WA0004.jpg"></a>
+					<a href="#img33">></a>
+				</div>
+				<a class="cerrar" href="">X</a>
+			</div>
+
+			<!-- =============== End galeria aluminio color ================= -->
+
 			<!--==================== Galeria alumionio color=====================-->
-	<section class="body_background">
-		<div class="title text-center">
-			<h1 class="mb-10 texto_2">Chapa</h1>
+			<section class="body_background">
+				<div class="title text-center">
+					<h1 class="mb-10 texto_2">Membrana liquida</h1>
 
-		</div>
+				</div>
 
-		<ul class="galeria">
-			<li><a href="#img17"><img src="./img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0123.jpg"></a>
-			</li>
-			<li><a href="#img18"><img src="./img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0124.jpg"></a></li>
-			<li><a href="#img19"><img src="./img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0128.jpg"></a>
-			</li>
-			<li><a href="#img20"><img src="./img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0131.jpg"></a>
-			</li>
-			<li><a href="#img21"><img src="./img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0135.jpg"></a>
-			</li>
-			<li><a href="#img22"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0146.jpg"></a></li>
-			<li><a href="#img23"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0147.jpg"></a>
-			</li>
-			<li><a href="#img24"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0149.jpg"></a>
-			</li>
-			<li><a href="#img25"><img src="./img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0161.jpg"></a>
-			</li>
-			<li><a href="#img26"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0164.jpg"></a></li>
-			<li><a href="#img27"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0183.jpg"></a>
-			</li>
-			<li><a href="#img28"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0187.jpg"></a>
-			</li>
-			<li><a href="#img29"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0188.jpg"></a>
-			</li>
-			<li><a href="#img30"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0203.jpg"></a></li>
-			<li><a href="#img31"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0241.jpg"></a>
-			</li>
-			<li><a href="#img32"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190923-WA0004.jpg"></a>
-			</li>
-		</ul>
-
-
-		<div class="modal" id="img17">
-			<h3>Membranas</h3>
-			<div class="imagen">
-				<a href="#img16">&#60;</a>
-				<a href="#img18"><img src="./img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0123.jpg"></a>
-				<a href="#img18">></a>
-			</div>
-			<a class="cerrar" href="">X</a>
-		</div>
-
-		<div class="modal" id="img18">
-			<h3>las mejores marcas</h3>
-			<div class="imagen">
-				<a href="#img17">&#60;</a>
-				<a href="#img19"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0124.jpg"></a>
-				<a href="#img19">></a>
-			</div>
-			<a class="cerrar" href="">X</a>
-		</div>
-
-		<div class="modal" id="img19">
-			<h3> El mejor precio</h3>
-			<div class="imagen">
-				<a href="#img20">&#60;</a>
-				<a href="#img18"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0128.jpg"></a>
-				<a href="#img18">></a>
-			</div>
-			<a class="cerrar" href="">X</a>
-		</div>
-
-		<div class="modal" id="img20">
-			<h3>CONTACTANOS</h3>
-			<div class="imagen">
-				<a href="#img19">&#60;</a>
-				<a href="#img21"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0131.jpg"></a>
-				<a href="#img21">></a>
-			</div>
-			<a class="cerrar" href="">X</a>
-		</div>
-		<div class="modal" id="img21">
-			<h3>los numero 1 en la ciudad</h3>
-			<div class="imagen">
-				<a href="#img20">&#60;</a>
-				<a href="#img22"><img src="./img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0135.jpg"></a>
-				<a href="#img22">></a>
-			</div>
-			<a class="cerrar" href="">X</a>
-		</div>
-		<div class="modal" id="img22">
-			<h3>Productos de calidad</h3>
-			<div class="imagen">
-				<a href="#img21">&#60;</a>
-				<a href="#img23"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0146.jpg"></a>
-				<a href="#img23">></a>
-			</div>
-			<a class="cerrar" href="">X</a>
-		</div>
-		<div class="modal" id="img23">
-			<h3>Llamanos y te asesoramos</h3>
-			<div class="imagen">
-				<a href="#img22">&#60;</a>
-				<a href="#img24"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0147.jpg"></a>
-				<a href="#img24">></a>
-			</div>
-			<a class="cerrar" href="">X</a>
-		</div>
-		<div class="modal" id="img24">
-			<h3></h3>
-			<div class="imagen">
-				<a href="#img23">&#60;</a>
-				<a href="#img25"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0149.jpg"></a>
-				<a href="#img25">></a>
-			</div>
-			<a class="cerrar" href="">X</a>
-		</div>
-		<div class="modal" id="img25">
-			<h3>Membranas</h3>
-			<div class="imagen">
-				<a href="#img24">&#60;</a>
-				<a href="#img26"><img src="./img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0161.jpg"></a>
-				<a href="#img26">></a>
-			</div>
-			<a class="cerrar" href="">X</a>
-		</div>
-
-		<div class="modal" id="img26">
-			<h3>las mejores marcas</h3>
-			<div class="imagen">
-				<a href="#img25">&#60;</a>
-				<a href="#img27"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0164.jpg"></a>
-				<a href="#img27">></a>
-			</div>
-			<a class="cerrar" href="">X</a>
-		</div>
-
-		<div class="modal" id="img27">
-			<h3> El mejor precio</h3>
-			<div class="imagen">
-				<a href="#img26">&#60;</a>
-				<a href="#img28"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0183.jpg"></a>
-				<a href="#img28">></a>
-			</div>
-			<a class="cerrar" href="">X</a>
-		</div>
-
-		<div class="modal" id="img28">
-			<h3>CONTACTANOS</h3>
-			<div class="imagen">
-				<a href="#img27">&#60;</a>
-				<a href="#img29"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0187.jpg"></a>
-				<a href="#img29">></a>
-			</div>
-			<a class="cerrar" href="">X</a>
-		</div>
-		<div class="modal" id="img29">
-			<h3>los numero 1 en la ciudad</h3>
-			<div class="imagen">
-				<a href="#img28">&#60;</a>
-				<a href="#img30"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0188.jpg"></a>
-				<a href="#img30">></a>
-			</div>
-			<a class="cerrar" href="">X</a>
-		</div>
-		<div class="modal" id="img30">
-			<h3>Productos de calidad</h3>
-			<div class="imagen">
-				<a href="#img29">&#60;</a>
-				<a href="#img31"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0203.jpg"></a>
-				<a href="#img31">></a>
-			</div>
-			<a class="cerrar" href="">X</a>
-		</div>
-		<div class="modal" id="img31">
-			<h3>Llamanos y te asesoramos</h3>
-			<div class="imagen">
-				<a href="#img30">&#60;</a>
-				<a href="#img32"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0241.jpg"></a>
-				<a href="#img32">></a>
-			</div>
-			<a class="cerrar" href="">X</a>
-		</div>
-		<div class="modal" id="img32">
-			<h3></h3>
-			<div class="imagen">
-				<a href="#img31">&#60;</a>
-				<a href="#img33"><img src="img/Membranas_mdp/membranas/chapa/IMG-20190923-WA0004.jpg"></a>
-				<a href="#img33">></a>
-			</div>
-			<a class="cerrar" href="">X</a>
-		</div>
-
-		<!-- =============== End galeria aluminio color ================= -->
-
-	<!--==================== Galeria alumionio color=====================-->
-	<section class="body_background">
-		<div class="title text-center">
-			<h1 class="mb-10 texto_2">Membrana liquida</h1>
-
-		</div>
-
-		<ul class="galeria">
-			<li><a href="#img33"><img src="./img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0120.jpg"></a>
-			</li>
-			<li><a href="#img34"><img src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0121.jpg"></a></li>
-			<li><a href="#img35"><img src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0125.jpg"></a>
-			</li>
-			<li><a href="#img36"><img src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0126.jpg"></a>
-			</li>
-			<li><a href="#img37"><img src="./img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0127.jpg"></a>
-			</li>
-			<li><a href="#img38"><img src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0129.jpg"></a></li>
-			<li><a href="#img39"><img src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0141.jpg"></a>
-			</li>
-			<li><a href="#img40"><img src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0142.jpg"></a>
-			</li>
-			<li><a href="#img41"><img src="./img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0148.jpg"></a>
-			</li>
-			<li><a href="#img42"><img src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0153.jpg"></a></li>
-			<li><a href="#img43"><img src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0154.jpg"></a>
-			</li>
-			<li><a href="#img44"><img src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0182.jpg"></a>
-			</li>
-			<li><a href="#img45"><img src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0202.jpg"></a>
-			</li>
-			<li><a href="#img46"><img src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0207.jpg"></a></li>
-			<li><a href="#img47"><img src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0216.jpg"></a>
-			</li>
-			<li><a href="#img48"><img src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0219.jpg"></a>
-			</li>
-		</ul>
+				<ul class="galeria">
+					<li><a href="#img33"><img
+								src="./img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0120.jpg"></a>
+					</li>
+					<li><a href="#img34"><img
+								src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0121.jpg"></a></li>
+					<li><a href="#img35"><img
+								src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0125.jpg"></a>
+					</li>
+					<li><a href="#img36"><img
+								src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0126.jpg"></a>
+					</li>
+					<li><a href="#img37"><img
+								src="./img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0127.jpg"></a>
+					</li>
+					<li><a href="#img38"><img
+								src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0129.jpg"></a></li>
+					<li><a href="#img39"><img
+								src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0141.jpg"></a>
+					</li>
+					<li><a href="#img40"><img
+								src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0142.jpg"></a>
+					</li>
+					<li><a href="#img41"><img
+								src="./img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0148.jpg"></a>
+					</li>
+					<li><a href="#img42"><img
+								src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0153.jpg"></a></li>
+					<li><a href="#img43"><img
+								src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0154.jpg"></a>
+					</li>
+					<li><a href="#img44"><img
+								src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0182.jpg"></a>
+					</li>
+					<li><a href="#img45"><img
+								src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0202.jpg"></a>
+					</li>
+					<li><a href="#img46"><img
+								src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0207.jpg"></a></li>
+					<li><a href="#img47"><img
+								src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0216.jpg"></a>
+					</li>
+					<li><a href="#img48"><img
+								src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0219.jpg"></a>
+					</li>
+				</ul>
 
 
-		<div class="modal" id="img33">
-			<h3>Membranas</h3>
-			<div class="imagen">
-				<a href="#img32">&#60;</a>
-				<a href="#img34"><img src="./img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0120.jpg"></a>
-				<a href="#img34">></a>
-			</div>
-			<a class="cerrar" href="">X</a>
-		</div>
-
-		<div class="modal" id="img34">
-			<h3>las mejores marcas</h3>
-			<div class="imagen">
-				<a href="#img33">&#60;</a>
-				<a href="#img35"><img src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0121.jpg"></a>
-				<a href="#img35">></a>
-			</div>
-			<a class="cerrar" href="">X</a>
-		</div>
-
-		<div class="modal" id="img35">
-			<h3> El mejor precio</h3>
-			<div class="imagen">
-				<a href="#img34">&#60;</a>
-				<a href="#img36"><img src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0125.jpg"></a>
-				<a href="#img36">></a>
-			</div>
-			<a class="cerrar" href="">X</a>
-		</div>
-
-		<div class="modal" id="img36">
-			<h3>CONTACTANOS</h3>
-			<div class="imagen">
-				<a href="#img35">&#60;</a>
-				<a href="#img37"><img src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0126.jpg"></a>
-				<a href="#img37">></a>
-			</div>
-			<a class="cerrar" href="">X</a>
-		</div>
-		<div class="modal" id="img37">
-			<h3>los numero 1 en la ciudad</h3>
-			<div class="imagen">
-				<a href="#img36">&#60;</a>
-				<a href="#img38"><img src="./img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0127.jpg"></a>
-				<a href="#img38">></a>
-			</div>
-			<a class="cerrar" href="">X</a>
-		</div>
-		<div class="modal" id="img38">
-			<h3>Productos de calidad</h3>
-			<div class="imagen">
-				<a href="#img37">&#60;</a>
-				<a href="#img39"><img src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0129.jpg"></a>
-				<a href="#img39">></a>
-			</div>
-			<a class="cerrar" href="">X</a>
-		</div>
-		<div class="modal" id="img39">
-			<h3>Llamanos y te asesoramos</h3>
-			<div class="imagen">
-				<a href="#img38">&#60;</a>
-				<a href="#img40"><img src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0141.jpg"></a>
-				<a href="#img40">></a>
-			</div>
-			<a class="cerrar" href="">X</a>
-		</div>
-		<div class="modal" id="img40">
-			<h3></h3>
-			<div class="imagen">
-				<a href="#img39">&#60;</a>
-				<a href="#img41"><img src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0142.jpg"></a>
-				<a href="#img41">></a>
-			</div>
-			<a class="cerrar" href="">X</a>
-		</div>
-		<div class="modal" id="img41">
-			<h3>Membranas</h3>
-			<div class="imagen">
-				<a href="#img40">&#60;</a>
-				<a href="#img42"><img src="./img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0148.jpg"></a>
-				<a href="#img42">></a>
-			</div>
-			<a class="cerrar" href="">X</a>
-		</div>
-
-		<div class="modal" id="img42">
-			<h3>las mejores marcas</h3>
-			<div class="imagen">
-				<a href="#img41">&#60;</a>
-				<a href="#img43"><img src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0153.jpg"></a>
-				<a href="#img43">></a>
-			</div>
-			<a class="cerrar" href="">X</a>
-		</div>
-
-		<div class="modal" id="img43">
-			<h3> El mejor precio</h3>
-			<div class="imagen">
-				<a href="#img42">&#60;</a>
-				<a href="#img44"><img src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0154.jpg"></a>
-				<a href="#img44">></a>
-			</div>
-			<a class="cerrar" href="">X</a>
-		</div>
-
-		<div class="modal" id="img44">
-			<h3>CONTACTANOS</h3>
-			<div class="imagen">
-				<a href="#img43">&#60;</a>
-				<a href="#img45"><img src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0182.jpg"></a>
-				<a href="#img45">></a>
-			</div>
-			<a class="cerrar" href="">X</a>
-		</div>
-		<div class="modal" id="img45">
-			<h3>los numero 1 en la ciudad</h3>
-			<div class="imagen">
-				<a href="#img44">&#60;</a>
-				<a href="#img46"><img src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0202.jpg"></a>
-				<a href="#img46">></a>
-			</div>
-			<a class="cerrar" href="">X</a>
-		</div>
-		<div class="modal" id="img46">
-			<h3>Productos de calidad</h3>
-			<div class="imagen">
-				<a href="#img45">&#60;</a>
-				<a href="#img47"><img src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0207.jpg"></a>
-				<a href="#img47">></a>
-			</div>
-			<a class="cerrar" href="">X</a>
-		</div>
-		<div class="modal" id="img47">
-			<h3>Llamanos y te asesoramos</h3>
-			<div class="imagen">
-				<a href="#img46">&#60;</a>
-				<a href="#img48"><img src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0216.jpg"></a>
-				<a href="#img48">></a>
-			</div>
-			<a class="cerrar" href="">X</a>
-		</div>
-		<div class="modal" id="img48">
-			<h3></h3>
-			<div class="imagen">
-				<a href="#img47">&#60;</a>
-				<a href="#img1"><img src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0219.jpg"></a>
-				<a href="#img1">></a>
-			</div>
-			<a class="cerrar" href="">X</a>
-		</div>
-
-		<!-- =============== End galeria aluminio color ================= -->
-
-
-		<!--================Buttons fixed =================-->
-
-		<div class="boton boton-wsp"><a
-				href="https://wa.me/5492236683801?text=Hola!%20Me%20interesaria%20un%20presupuesto%20para%20un%20trabajo"><img
-					src="Imagenes/whatsapp.png"></a></div>
-
-		<div id="DivIdToScrollTel">
-			<!-- Aca indico cuando clickea que vaya a la seccion de la misma pagina-->
-			<div class="boton boton-phone"><img src="Imagenes/office-telephone.png"></div>
-		</div>
-
-		<div class="boton boton-fb" data-toggle="modal" data-target="#myModal"><img src="Imagenes/facebook.png">
-		</div>
-		</div>
-
-		<!-- The Modal -->
-		<div class="modal fade" id="myModal">
-			<div class="modal-dialog">
-				<div class="modal-content modal-lg">
-
-					<!-- Modal Header -->
-					<div class="modal-header">
-						<h4 class="modal-title">Nuestro facebook oficial.</h4>
-						<button type="button" class="close" data-dismiss="modal">×</button>
+				<div class="modal" id="img33">
+					<h3>Membranas</h3>
+					<div class="imagen">
+						<a href="#img32">&#60;</a>
+						<a href="#img34"><img
+								src="./img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0120.jpg"></a>
+						<a href="#img34">></a>
 					</div>
+					<a class="cerrar" href="">X</a>
+				</div>
 
-					<!-- Modal body -->
-					<div class="modal-body">
-						<div class="container">
+				<div class="modal" id="img34">
+					<h3>las mejores marcas</h3>
+					<div class="imagen">
+						<a href="#img33">&#60;</a>
+						<a href="#img35"><img
+								src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0121.jpg"></a>
+						<a href="#img35">></a>
+					</div>
+					<a class="cerrar" href="">X</a>
+				</div>
 
-							<div class="fb-page"
-								data-href="https://www.facebook.com/pg/COLOCACIONMEMBRANASMARDELPLATA/services/?ref=page_internal"
-								data-tabs="timeline" data-width="450" data-height="700" data-small-header="false"
-								data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
-								<blockquote
-									cite="https://www.facebook.com/pg/COLOCACIONMEMBRANASMARDELPLATA/services/?ref=page_internal"
-									class="fb-xfbml-parse-ignore"><a
-										href="https://www.facebook.com/pg/COLOCACIONMEMBRANASMARDELPLATA/services/?ref=page_internal">Membranas
-										Mar del Plata</a></blockquote>
+				<div class="modal" id="img35">
+					<h3> El mejor precio</h3>
+					<div class="imagen">
+						<a href="#img34">&#60;</a>
+						<a href="#img36"><img
+								src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0125.jpg"></a>
+						<a href="#img36">></a>
+					</div>
+					<a class="cerrar" href="">X</a>
+				</div>
+
+				<div class="modal" id="img36">
+					<h3>CONTACTANOS</h3>
+					<div class="imagen">
+						<a href="#img35">&#60;</a>
+						<a href="#img37"><img
+								src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0126.jpg"></a>
+						<a href="#img37">></a>
+					</div>
+					<a class="cerrar" href="">X</a>
+				</div>
+				<div class="modal" id="img37">
+					<h3>los numero 1 en la ciudad</h3>
+					<div class="imagen">
+						<a href="#img36">&#60;</a>
+						<a href="#img38"><img
+								src="./img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0127.jpg"></a>
+						<a href="#img38">></a>
+					</div>
+					<a class="cerrar" href="">X</a>
+				</div>
+				<div class="modal" id="img38">
+					<h3>Productos de calidad</h3>
+					<div class="imagen">
+						<a href="#img37">&#60;</a>
+						<a href="#img39"><img
+								src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0129.jpg"></a>
+						<a href="#img39">></a>
+					</div>
+					<a class="cerrar" href="">X</a>
+				</div>
+				<div class="modal" id="img39">
+					<h3>Llamanos y te asesoramos</h3>
+					<div class="imagen">
+						<a href="#img38">&#60;</a>
+						<a href="#img40"><img
+								src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0141.jpg"></a>
+						<a href="#img40">></a>
+					</div>
+					<a class="cerrar" href="">X</a>
+				</div>
+				<div class="modal" id="img40">
+					<h3></h3>
+					<div class="imagen">
+						<a href="#img39">&#60;</a>
+						<a href="#img41"><img
+								src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0142.jpg"></a>
+						<a href="#img41">></a>
+					</div>
+					<a class="cerrar" href="">X</a>
+				</div>
+				<div class="modal" id="img41">
+					<h3>Membranas</h3>
+					<div class="imagen">
+						<a href="#img40">&#60;</a>
+						<a href="#img42"><img
+								src="./img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0148.jpg"></a>
+						<a href="#img42">></a>
+					</div>
+					<a class="cerrar" href="">X</a>
+				</div>
+
+				<div class="modal" id="img42">
+					<h3>las mejores marcas</h3>
+					<div class="imagen">
+						<a href="#img41">&#60;</a>
+						<a href="#img43"><img
+								src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0153.jpg"></a>
+						<a href="#img43">></a>
+					</div>
+					<a class="cerrar" href="">X</a>
+				</div>
+
+				<div class="modal" id="img43">
+					<h3> El mejor precio</h3>
+					<div class="imagen">
+						<a href="#img42">&#60;</a>
+						<a href="#img44"><img
+								src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0154.jpg"></a>
+						<a href="#img44">></a>
+					</div>
+					<a class="cerrar" href="">X</a>
+				</div>
+
+				<div class="modal" id="img44">
+					<h3>CONTACTANOS</h3>
+					<div class="imagen">
+						<a href="#img43">&#60;</a>
+						<a href="#img45"><img
+								src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0182.jpg"></a>
+						<a href="#img45">></a>
+					</div>
+					<a class="cerrar" href="">X</a>
+				</div>
+				<div class="modal" id="img45">
+					<h3>los numero 1 en la ciudad</h3>
+					<div class="imagen">
+						<a href="#img44">&#60;</a>
+						<a href="#img46"><img
+								src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0202.jpg"></a>
+						<a href="#img46">></a>
+					</div>
+					<a class="cerrar" href="">X</a>
+				</div>
+				<div class="modal" id="img46">
+					<h3>Productos de calidad</h3>
+					<div class="imagen">
+						<a href="#img45">&#60;</a>
+						<a href="#img47"><img
+								src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0207.jpg"></a>
+						<a href="#img47">></a>
+					</div>
+					<a class="cerrar" href="">X</a>
+				</div>
+				<div class="modal" id="img47">
+					<h3>Llamanos y te asesoramos</h3>
+					<div class="imagen">
+						<a href="#img46">&#60;</a>
+						<a href="#img48"><img
+								src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0216.jpg"></a>
+						<a href="#img48">></a>
+					</div>
+					<a class="cerrar" href="">X</a>
+				</div>
+				<div class="modal" id="img48">
+					<h3></h3>
+					<div class="imagen">
+						<a href="#img47">&#60;</a>
+						<a href="#img1"><img
+								src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0219.jpg"></a>
+						<a href="#img1">></a>
+					</div>
+					<a class="cerrar" href="">X</a>
+				</div>
+
+				<!-- =============== End galeria aluminio color ================= -->
+
+
+				<!--================Buttons fixed =================-->
+
+				<div class="boton boton-wsp"><a
+						href="https://wa.me/5492236683801?text=Hola!%20Me%20interesaria%20un%20presupuesto%20para%20un%20trabajo"><img
+							src="Imagenes/whatsapp.png"></a></div>
+
+				<div id="DivIdToScrollTel">
+					<!-- Aca indico cuando clickea que vaya a la seccion de la misma pagina-->
+					<div class="boton boton-phone"><img src="Imagenes/office-telephone.png"></div>
+				</div>
+
+				<div class="boton boton-fb" data-toggle="modal" data-target="#myModal"><img src="Imagenes/facebook.png">
+				</div>
+				</div>
+
+				<!-- The Modal -->
+				<div class="modal fade" id="myModal">
+					<div class="modal-dialog">
+						<div class="modal-content modal-lg">
+
+							<!-- Modal Header -->
+							<div class="modal-header">
+								<h4 class="modal-title">Nuestro facebook oficial.</h4>
+								<button type="button" class="close" data-dismiss="modal">×</button>
+							</div>
+
+							<!-- Modal body -->
+							<div class="modal-body">
+								<div class="container">
+
+									<div class="fb-page"
+										data-href="https://www.facebook.com/pg/COLOCACIONMEMBRANASMARDELPLATA/services/?ref=page_internal"
+										data-tabs="timeline" data-width="450" data-height="700"
+										data-small-header="false" data-adapt-container-width="true"
+										data-hide-cover="false" data-show-facepile="true">
+										<blockquote
+											cite="https://www.facebook.com/pg/COLOCACIONMEMBRANASMARDELPLATA/services/?ref=page_internal"
+											class="fb-xfbml-parse-ignore"><a
+												href="https://www.facebook.com/pg/COLOCACIONMEMBRANASMARDELPLATA/services/?ref=page_internal">Membranas
+												Mar del Plata</a></blockquote>
+									</div>
+								</div>
+							</div>
+
+							<!-- Modal footer -->
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+
+				<div class="boton boton-ig"><a href="https://www.instagram.com/membranasmardelplata/"><img
+							src="Imagenes/instagramChico.png"></a></div>
+
+				<!--==============End button fixed =================-->
+
+
+
+				<!--================ start footer Area  =================-->
+				<footer class="footer-area p_120">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-3  col-md-6 col-sm-6">
+								<div class="single-footer-widget ab_wd">
+									<h6 class="footer_title" id="DivIdToScrollNosotros"><a>Sobre nosotros</a></h6>
+									<h5 style="color:whitesmoke; font-size: 15px;">Confie la seguridad de su hogar con
+										profesionales de calidad, mas de 20 años de experiencia y garantia por escrito
+									</h5>
+								</div>
+								<br>
+								<br>
+								<h4 style="color: white;">Contador de visitas</h4>
+								<div id="sfcrm1jphwx1l3k5p3bbs2d6q8eytyyu4me"></div>
+
+								<br>
+								<!-- Start of CuterCounter Code -->
+								<a href="https://www.cutercounter.com/spanish/" target="_blank"><img
+										src="https://www.cutercounter.com/hits.php?id=gcxnnk&nd=6&style=72" border="0"
+										alt="contador de visitas"></a>
+								<!-- End of CuterCounter Code -->
+							</div>
+
+							<!--=====Boton scroll down (scroll_div) cuando clickeas el logo del tel viene aca abajo=====-->
+							<div id="scroll_div_tel"></div>
+							<!--========End boton scroll down (scroll_div) =========-->
+
+							<div class="col-lg-3 col-md-6 col-sm-6">
+								<div class="single-footer-widget contact_wd">
+									<h6 class="footer_title">Contacto</h6>
+									<h5 style="color:whitesmoke; font-size: 15px;">Mar del plata, Partido Gral.
+										Pueyrredon y Alrrededores. Buenos Aires, Argentina.</h5>
+									<a href="tel:+5492236843335">+54 9 2236843335</a>
+								</div>
+							</div>
+							<div class="col-lg-5 col-md-6 col-sm-6 offset-lg-1">
+								<div class="single-footer-widget">
+									<h6 class="footer_title">Novedades</h6>
+
+									<!--=========API weather Mar del plata ===========-->
+									<a class="weatherwidget-io"
+										href="https://forecast7.com/es/n38d01n57d54/mar-del-plata/"
+										data-label_1="MAR DEL PLATA" data-label_2="WEATHER" data-theme="original">MAR
+										DEL PLATA
+										WEATHER</a>
+									<script>
+										! function (d, s, id) {
+											var js, fjs = d.getElementsByTagName(s)[0];
+											if (!d.getElementById(id)) {
+												js = d.createElement(s);
+												js.id = id;
+												js.src = 'https://weatherwidget.io/js/widget.min.js';
+												fjs.parentNode.insertBefore(js, fjs);
+											}
+										}(document, 'script', 'weatherwidget-io-js');
+									</script>
+									<!--=======End API weather Mar del plata =========-->
+									<!--Boton scroll down (scroll_div) cuando clickeas el boton de ¿Cuando llueve? viene aca abajo -->
+									<div id="scroll_div_lluvia"></div>
+									<!--========End boton scroll down (scroll_div) =========-->
+									<div class="mt-10 info"></div>
+									</form>
+								</div>
 							</div>
 						</div>
 					</div>
-
-					<!-- Modal footer -->
-					<div class="modal-footer">
-						<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-					</div>
-
-				</div>
-			</div>
-		</div>
-
-
-		<div class="boton boton-ig"><a href="https://www.instagram.com/membranasmardelplata/"><img
-					src="Imagenes/instagramChico.png"></a></div>
-
-		<!--==============End button fixed =================-->
-
-
-
-		<!--================ start footer Area  =================-->
-		<footer class="footer-area p_120">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-3  col-md-6 col-sm-6">
-						<div class="single-footer-widget ab_wd">
-							<h6 class="footer_title" id="DivIdToScrollNosotros"><a>Sobre nosotros</a></h6>
-							<h5 style="color:whitesmoke; font-size: 15px;">Confie la seguridad de su hogar con
-								profesionales de calidad, mas de 20 años de experiencia y garantia por escrito</h5>
-						</div>
-						<br>
-						<br>
-						<h4 style="color: white;">Contador de visitas</h4>
-						<a href="https://www.cerotec.net/estadisticas-129270/membranasmardelplata.com" title="mis estadísticas"><img src="https://www.cerotec.net/contador.php?t=5&s=5&i=129270" alt="www.cerotec.net"></a> 
-					</div>
-
-					<!--=====Boton scroll down (scroll_div) cuando clickeas el logo del tel viene aca abajo=====-->
-					<div id="scroll_div_tel"></div>
-					<!--========End boton scroll down (scroll_div) =========-->
-
-					<div class="col-lg-3 col-md-6 col-sm-6">
-						<div class="single-footer-widget contact_wd">
-							<h6 class="footer_title">Contacto</h6>
-							<h5 style="color:whitesmoke; font-size: 15px;">Mar del plata, Partido Gral.
-								Pueyrredon y Alrrededores. Buenos Aires, Argentina.</h5>
-							<a href="tel:+5492236843335">+54 9 2236843335</a>
-						</div>
-					</div>
-					<div class="col-lg-5 col-md-6 col-sm-6 offset-lg-1">
-						<div class="single-footer-widget">
-							<h6 class="footer_title">Novedades</h6>
-
-							<!--=========API weather Mar del plata ===========-->
-							<a class="weatherwidget-io" href="https://forecast7.com/es/n38d01n57d54/mar-del-plata/"
-								data-label_1="MAR DEL PLATA" data-label_2="WEATHER" data-theme="original">MAR DEL PLATA
-								CLIMA</a>
-							<script>
-								! function (d, s, id) {
-									var js, fjs = d.getElementsByTagName(s)[0];
-									if (!d.getElementById(id)) {
-										js = d.createElement(s);
-										js.id = id;
-										js.src = 'https://weatherwidget.io/js/widget.min.js';
-										fjs.parentNode.insertBefore(js, fjs);
-									}
-								}(document, 'script', 'weatherwidget-io-js');
-							</script>
-							<!--=======End API weather Mar del plata =========-->
-							<!--Boton scroll down (scroll_div) cuando clickeas el boton de ¿Cuando llueve? viene aca abajo -->
-							<div id="scroll_div_lluvia"></div>
-							<!--========End boton scroll down (scroll_div) =========-->
-							<div class="mt-10 info"></div>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- <div class="row footer-bottom d-flex justify-content-between align-items-center"> -->
-			<!-- <p class="col-lg-8 col-md-8 footer-text m-0"> -->
-			<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-			<!-- Copyright &copy;<script>
+					<!-- <div class="row footer-bottom d-flex justify-content-between align-items-center"> -->
+					<!-- <p class="col-lg-8 col-md-8 footer-text m-0"> -->
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					<!-- Copyright &copy;<script>
 							document.write(new Date().getFullYear());
 						</script> All rights reserved | This template is made with <i class="fa fa-heart-o"
 							aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> -->
-			<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-			<!-- </p> -->
-			</div>
-			</div>
-		</footer>
-		<!--================ End f ==================>
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					<!-- </p> -->
+					</div>
+					</div>
+				</footer>
+				<!--================ End f ==================>
 
 
 	<!-- Optional JavaScript -->
-		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-		<script src="js/jquery-3.2.1.min.js"></script>
-		<script src="js/popper.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/stellar.js"></script>
-		<script src="vendors/lightbox/simpleLightbox.min.js"></script>
-		<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
-		<script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
-		<script src="vendors/isotope/isotope-min.js"></script>
-		<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-		<script src="vendors/jquery-ui/jquery-ui.js"></script>
-		<script src="js/jquery.ajaxchimp.min.js"></script>
-		<script src="vendors/counter-up/jquery.waypoints.min.js"></script>
-		<script src="vendors/counter-up/jquery.counterup.js"></script>
-		<script src="js/mail-script.js"></script>
-		<script src="js/theme.js"></script>
-		<script src="js/gallery.js"></script>
+				<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+				<script src="js/jquery-3.2.1.min.js"></script>
+				<script src="js/popper.js"></script>
+				<script src="js/bootstrap.min.js"></script>
+				<script src="js/stellar.js"></script>
+				<script src="vendors/lightbox/simpleLightbox.min.js"></script>
+				<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+				<script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+				<script src="vendors/isotope/isotope-min.js"></script>
+				<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+				<script src="vendors/jquery-ui/jquery-ui.js"></script>
+				<script src="js/jquery.ajaxchimp.min.js"></script>
+				<script src="vendors/counter-up/jquery.waypoints.min.js"></script>
+				<script src="vendors/counter-up/jquery.counterup.js"></script>
+				<script src="js/mail-script.js"></script>
+				<script src="js/theme.js"></script>
+				<script src="js/gallery.js"></script>
 </body>
 
 </html>
