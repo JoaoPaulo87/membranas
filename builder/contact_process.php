@@ -1,6 +1,10 @@
 <?php
 
+<<<<<<< HEAD
     $to = "membrana";
+=======
+    $to = "membranasmardelplata@gmail.com";
+>>>>>>> 12f1d713668e19292f02c7cbb55ff518e7b009f3
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
     $subject = $_REQUEST['subject'];
