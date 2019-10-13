@@ -4204,7 +4204,6 @@ h6 {
   background: url(../Imagenes/2874.jpg_wh860.jpg) no-repeat scroll center center;
   min-height: 500px;
   min-width: 100%;
-  position: absolute;
   left: 0;
   right: 0;
   top: 0;
@@ -4222,6 +4221,7 @@ h6 {
     font-family: "Oswald", sans-serif;
     font-weight: 500;
     color: whitesmoke;
+    
 }
 
 .video-box .container .row .texto-video h3{
@@ -4337,7 +4337,7 @@ img.logo2{
 
 
   
-@media (min-width: 768px) {  
+@media (max-width: 768px) {  
   .container {  
     max-width: 720px;  
   }  
@@ -4351,9 +4351,10 @@ img.logo2{
     width: 250px;
     height: 250px;
   }
+  
 }  
   
-@media (min-width: 992px) {  
+@media (max-width: 992px) {  
   .container {  
     max-width: 960px;  
   }  
@@ -4363,7 +4364,7 @@ img.logo2{
   }
 }  
   
-@media (min-width: 1200px) {  
+@media (max-width: 1200px) {  
   .container {  
     max-width: 1140px;  
   }  

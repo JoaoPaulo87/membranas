@@ -1,6 +1,6 @@
 <?php
 
-    $to = "elponyde9@gmail.com";
+    $to = "membrana";
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
     $subject = $_REQUEST['subject'];
@@ -15,7 +15,7 @@
 
     $subject = "Tenes un mensaje de tu pagina web";
 
-    $logo = 'img/logo.png';
+    $logo = 'img/LOGO4.png';
     $link = '#';
 
 	$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Express Mail</title></head><body>";

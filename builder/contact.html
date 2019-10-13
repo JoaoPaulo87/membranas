@@ -26,6 +26,13 @@
 </head>
 
 <body>
+    <script type="text/javascript">
+        function parpadeo() {
+            var imagen = document.images["parpadeante"];
+            imagen.style.visibility = (imagen.style.visibility == "visible") ? "hidden" : "visible";
+        }
+        setInterval("parpadeo()", 300);
+    </script>
     <!-- script para facebook-modal -->
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v4.0">
@@ -33,6 +40,7 @@
     <!-- end script para facebook-modal -->
 
     <!--================Header Menu Area =================-->
+
     <div class="main_menu header_area">
         <nav class="navbar navbar-expand-lg navbar-light ">
             <div class="container py-2">
@@ -49,7 +57,7 @@
                 <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                     <ul class="nav navbar-nav menu_nav ml-auto">
                         <li class="nav-item active"><a class="nav-link" href="index.html">Inicio</a></li>
-                        <li class="nav-item"><a class="nav-link" id="DivIdToScrollNosotros">Sobre nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="service.html">Sobre nosotros</a></li>
                         <!-- <li class="nav-item"><a class="nav-link">Galeria</a> -->
                         <li class="nav-item submenu dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
@@ -106,12 +114,13 @@
                         <div class="info_item">
                             <i class="lnr lnr-home"></i>
                             <h6>Partido de Gral. Pueyrredon.</h6>
-                            <p>En toda Mar del Plata y alrededores.</p>
+                            <p>En toda Mar del Plata y zonas de influencia.</p>
                         </div>
-                        <div class="info_item">
+                        <div class="info_item" style="text-align:left;">
                             <i class="lnr lnr-phone-handset"></i>
-                            <h6><a href="#">(0223)156-223344</a></h6>
-                            <p>Trabajamos todos los dias. Urgencias las 24 hs.</p>
+                            <h6><a href="tel:+5492236843335">+54 9 2236843335</a></h6>
+                            <p>lunes a viernes de 08.30hs a 19.30hs.
+                                Sábados de 8.30hs a 12.30hs.</p>
                         </div>
                         <!-- <div class="info_item">
                             <i class="lnr lnr-envelope"></i>
@@ -155,19 +164,19 @@
 
 
 
-    <div class="boton boton-wsp"><a
-            href="https://wa.me/5492236683801?text=Hola!%20Me%20interesaria%20un%20presupuesto%20para%20un%20trabajo"><img
-                src="Imagenes/whatsapp.png"></a></div>
+    <div class="boton boton-wsp"><a target=_blank
+            href="https://wa.me/5492236843335?text=Hola!%20Me%20interesaria%20un%20presupuesto%20para%20un%20trabajo"><img
+                name="parpadeante" src="Imagenes/whatsapp.png"></a></div>
 
     <div id="DivIdToScrollTel">
         <!-- Aca indico cuando clickea que vaya a la seccion de la misma pagina-->
-        <div class="boton boton-phone"><img src="Imagenes/office-telephone.png"></div>
+        <div class="boton boton-phone"><img href="tel:+5492236843335" src="Imagenes/office-telephone.png">
+        </div>
     </div>
 
-    <div class="boton boton-fb" data-toggle="modal" data-target="#myModal"><img src="Imagenes/facebook.png">
-    </div>
-    </div>
+    <div class="boton boton-fb" data-toggle="modal" data-target="#myModal"><img src="Imagenes/facebook.png"></div>
 
+    <div id="fb-root"></div>
     <!-- The Modal -->
     <div class="modal fade" id="myModal">
         <div class="modal-dialog">
@@ -180,12 +189,13 @@
                 </div>
 
                 <!-- Modal body -->
-                <div class="modal-body">
-                    <div class="container">
+                <div class="container">
+                    <div class="modal-body justify-content-center">
+
 
                         <div class="fb-page"
                             data-href="https://www.facebook.com/pg/COLOCACIONMEMBRANASMARDELPLATA/services/?ref=page_internal"
-                            data-tabs="timeline" data-width="450" data-height="700" data-small-header="false"
+                            data-tabs="timeline" data-width="300" data-height="700" data-small-header="false"
                             data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
                             <blockquote
                                 cite="https://www.facebook.com/pg/COLOCACIONMEMBRANASMARDELPLATA/services/?ref=page_internal"
@@ -193,6 +203,7 @@
                                     href="https://www.facebook.com/pg/COLOCACIONMEMBRANASMARDELPLATA/services/?ref=page_internal">Membranas
                                     Mar del Plata</a></blockquote>
                         </div>
+
                     </div>
                 </div>
 
@@ -206,7 +217,7 @@
     </div>
 
 
-    <div class="boton boton-ig"><a href="https://www.instagram.com/membranasmardelplata/"><img
+    <div class="boton boton-ig"><a target=_blank href="https://www.instagram.com/membranasmardelplata/"><img
                 src="Imagenes/instagramChico.png"></a></div>
 
     <!--==============End button fixed =================-->
@@ -247,14 +258,19 @@
 
 
     <!--================ start footer Area  =================-->
+    <!--================ start footer Area  =================-->
     <footer class="footer-area p_120">
         <div class="container">
-            <div class="row">
+            <div class="row" style="text-align: center;">
                 <div class="col-lg-3  col-md-6 col-sm-6">
                     <div class="single-footer-widget ab_wd">
                         <h6 class="footer_title" id="DivIdToScrollNosotros"><a>Sobre nosotros</a></h6>
-                        <h5 style="color:whitesmoke; font-size: 15px;">Confie la seguridad de su hogar con
-                            profesionales de calidad, mas de 20 años de experiencia y garantia por escrito</h5>
+                        <h5 style="color:whitesmoke; font-size: 15px; text-align: left;">Somos una empresa competitiva,
+                            con honestidad
+                            tecnica y comercial en la ciudad de mar del plata y zonas de influencia. brindamos un
+                            servicio 100%, responsable, rapido y efectivo, contra las goteras y filtraciones de su
+                            hogar.
+                        </h5>
                     </div>
                     <br>
                     <br>
@@ -263,9 +279,10 @@
 
                     <br>
                     <!-- Start of CuterCounter Code -->
-                    <a href="https://www.cutercounter.com/spanish/" target="_blank"><img
-                            src="https://www.cutercounter.com/hits.php?id=gcxnnk&nd=6&style=72" border="0"
-                            alt="contador de visitas"></a>
+                    <a href="https://www.cerotec.net/estadisticas-129270/membranasmardelplata.com"
+                        title="ver mis estadísticas"><img src="https://www.cerotec.net/contador.php?t=5&s=4&i=129270"
+                            alt="www.cerotec.net"></a> <br>
+
                     <!-- End of CuterCounter Code -->
                 </div>
 
@@ -314,9 +331,9 @@
         <!-- <p class="col-lg-8 col-md-8 footer-text m-0"> -->
         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
         <!-- Copyright &copy;<script>
-                        document.write(new Date().getFullYear());
-                    </script> All rights reserved | This template is made with <i class="fa fa-heart-o"
-                        aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> -->
+                                document.write(new Date().getFullYear());
+                            </script> All rights reserved | This template is made with <i class="fa fa-heart-o"
+                                aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> -->
         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
         <!-- </p> -->
         </div>

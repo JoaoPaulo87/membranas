@@ -21,12 +21,16 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
 
-
-
 </head>
 
 <body>
-
+	<script type="text/javascript">
+		function parpadeo() {
+			var imagen = document.images["parpadeante"];
+			imagen.style.visibility = (imagen.style.visibility == "visible") ? "hidden" : "visible";
+		}
+		setInterval("parpadeo()", 300);
+	</script>
 	<!-- end script para facebook-modal -->
 
 	<!--================Header Menu Area =================-->
@@ -47,7 +51,7 @@
 				<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 					<ul class="nav navbar-nav menu_nav ml-auto">
 						<li class="nav-item active"><a class="nav-link" href="index.html">Inicio</a></li>
-						<li class="nav-item"><a class="nav-link" id="DivIdToScrollNosotros">Sobre nosotros</a></li>
+						<li class="nav-item"><a class="nav-link" href="service.html">Sobre nosotros</a></li>
 						<!-- <li class="nav-item"><a class="nav-link">Galeria</a> -->
 						<li class="nav-item submenu dropdown">
 							<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
@@ -79,34 +83,47 @@
 				<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
 				<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
 				<li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
 
 			</ol>
-			<div class="carousel-inner" role="listbox">
+			<div class="carousel-inner container" role="listbox">
 				<!-- Slide One - Set the background image for this slide in the line below -->
-				<div class="carousel-item active"
-					style="background-image: url(img/Membranas_mdp/membranas/slider/11.png)">
-					<div class="carousel-caption d-none d-md-block">
-						<h3>Marcos Aguirre</h3>
-						<p>Sistemas de impermeabilizaciones de techos y terrazas</p>
-					</div>
+				<div class="carousel-item active container"
+					style="width: 100%; height: 700px; background-image: url(img/Membranas_mdp/membranas/slider/7.jpg)">
+
 
 				</div>
 				<!-- Slide Two - Set the background image for this slide in the line below -->
-				<div class="carousel-item" style="background-image:url(img/Membranas_mdp/membranas/slider/7.png)">
+				<div class="carousel-item container "
+					style=" width: 100%; height: 700px;background-image:url(img/Membranas_mdp/membranas/slider/11.jpg)">
 
 				</div>
 				<!-- Slide Two - Set the background image for this slide in the line below -->
-				<div class="carousel-item" style="background-image: url(img/Membranas_mdp/membranas/slider/8.png)">
+				<div class="carousel-item container "
+					style="width: 100%; height: 700px;background-image: url(img/Membranas_mdp/membranas/slider/8.jpg)">
 
 				</div>
 				<!-- Slide Two - Set the background image for this slide in the line below -->
-				<div class="carousel-item" style="background-image: url(img/Membranas_mdp/membranas/slider/9.png)">
+				<div class="carousel-item container "
+					style="width: 100%; height: 700px;background-image: url(img/Membranas_mdp/membranas/slider/9.jpg)">
 
 				</div>
 				<!-- Slide Three - Set the background image for this slide in the line below -->
-				<div class="carousel-item" style="background-image: url(img/Membranas_mdp/membranas/slider/10.png)">
+				<div class="carousel-item container "
+					style="width: 100%; height: 700px;background-image: url(img/Membranas_mdp/membranas/slider/10.jpg)">
 
 				</div>
+
+				<div class="carousel-item container "
+					style="width: 100%; height: 700px;background-image: url(img/Membranas_mdp/membranas/slider/11.jpg)">
+
+				</div>
+				<div class="carousel-item container "
+					style="width: 100%; height: 700px;background-image: url(img/Membranas_mdp/membranas/slider/12.jpg)">
+
+				</div>
+
 
 
 
@@ -128,8 +145,8 @@
 	<!--================Buttons fixed =================-->
 
 	<div class="boton boton-wsp"><a target=_blank
-			href="https://wa.me/5492236683801?text=Hola!%20Me%20interesaria%20un%20presupuesto%20para%20un%20trabajo"><img
-				src="Imagenes/whatsapp.png"></a></div>
+			href="https://wa.me/5492236843335?text=Hola!%20Me%20interesaria%20un%20presupuesto%20para%20un%20trabajo"><img
+				name="parpadeante" src="Imagenes/whatsapp.png"></a></div>
 
 	<div id="DivIdToScrollTel">
 		<!-- Aca indico cuando clickea que vaya a la seccion de la misma pagina-->
@@ -153,12 +170,12 @@
 
 				<!-- Modal body -->
 				<div class="container">
-					<div class="modal-body">
+					<div class="modal-body justify-content-center">
 
 
 						<div class="fb-page"
 							data-href="https://www.facebook.com/pg/COLOCACIONMEMBRANASMARDELPLATA/services/?ref=page_internal"
-							data-tabs="timeline" data-width="450" data-height="700" data-small-header="false"
+							data-tabs="timeline" data-width="300" data-height="700" data-small-header="false"
 							data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
 							<blockquote
 								cite="https://www.facebook.com/pg/COLOCACIONMEMBRANASMARDELPLATA/services/?ref=page_internal"
@@ -192,15 +209,18 @@
 	<section class="container">
 		<div class="materiales">
 			<div class="row justify-content-sm-center">
-				<div class="col-sm-auto my-sm-auto ">
+				<div class="col-sm-auto my-sm-auto col-12 ">
 					<img class="rounded-circle img-thumbnail imagenesp " src="Imagenes/megaflex.jpg" type="logo">
 				</div>
-				<div class="col-sm-auto ">
+				<div class="col-sm-auto col-12">
 					<img class="rounded-circle img-thumbnail imagenesp"
 						src="Imagenes/68e0a9_dd900dc7bcc14d998887f4b380a305e3_mv2.gif" type="logo">
 				</div>
 			</div>
 		</div>
+		<br>
+		<br>
+		<br>
 		<div class="container descripcion pt-sm-5">
 			<div class="row justify-content-sm-center">
 				<div class="col-sm-auto pb-5">
@@ -211,7 +231,9 @@
 		</div>
 	</section>
 	<!--================End logos megaflex y cima =================-->
-
+	<br>
+	<br>
+	<br>
 	<!--================Home Banner Area =================-->
 
 	<section class="container">
@@ -222,8 +244,9 @@
 				<div class="container">
 					<div class="banner_content text-center">
 						<h3>Proteja su <span>hogar</span></h3>
-						<p>Le garantizamos la solución de fisuras en su hogar. Proteja su familia antes que las lluvias
-							arruinen lo suyo </p>
+						<p style="text-shadow:1px 2px 2px black ; "> Impermeabilize su Techo con Expertos en instalacion
+							de Membranas Asfálticas.
+							Elija mano de obra Calificada, Elija los Aplicadores de Membranas Mar del Plata.</p>
 						<a class="black_btn" id="DivIdToScrollLluvia">¿Cuando llueve?</a>
 					</div>
 				</div>
@@ -243,16 +266,20 @@
 		<div class="container">
 			<div class="row">
 				<div class="texto-video col-sm-6 justify-content-sm-center pt-sm-5 pl-sm-5">
-					<h1>Empleamos elementos de seguridad y seguros correspondientes</h1><br />
+					<h1 style="text-align: center; font-size: 30px;">Brindamos
+						Honestidad Comercial con un Servicio de Exelencia en
+						<span style="background-color: rgb(255, 196, 0); border-radius: 6px;">Impermeabilizaciones
+						</span></h1><br />
 					<h3>
 						<li>Nuestro equipo de técnicos brindan asesoramiento y cotización de presupuestos, asegurando el
 							adecuado producto impermeabilizante para cada caso.</li><br />
-						<li>Aguirre Marcos, en Mar del Plata es quien le brinda el servicio más efectivo en
+						<li>Aguirre Marcos, en Mar del Plata es quien le brinda el servicio más efectivo y responsable
+							en
 							impermeabilización de techos.</li>
 					</h3>
 				</div>
 				<div class="membranas-video col-sm-4 col-4 col-md-6 d-inline-flex">
-					<iframe width="700" height="400" src="https://www.youtube.com/embed/-gxwzy5Sivw">
+					<iframe width="700" height="400px auto" src="https://www.youtube.com/embed/R_wiSfs3FJM">
 					</iframe>
 				</div>
 			</div>
@@ -266,7 +293,11 @@
 		<div class="container">
 			<div class="main_title">
 				<h2>Sobre nosotros</h2>
-				<p>Servicio en colocación de membranas 100% responsable y eficiente</p>
+				<p>Somos una empresa competitiva,
+					con honestidad
+					comercial en la ciudad de Mar del Plata y zonas de influencia. Brindamos un
+					servicio 100%, responsable, rapido y efectivo, contra las goteras y filtraciones de su
+					hogar.</p>
 			</div>
 
 			<div class="row services_inner">
@@ -274,39 +305,39 @@
 				<div class="col-lg-4">
 					<div class="services_item">
 						<img src="img/icon/service-icon-1.png" alt="">
-						<a href="#">
+						<a href="service.html">
 							<h4>25 años de trayectoria en el rubro</h4>
 						</a>
 						<p>Estamos orientados en impermeabilizaciones de techos: losas y terrazas. Protegiendo el bien
 							material de su hogar y el de su familia, contra las lluvias y el deterioro que estas
-							ocasionan; evitando mayores costos de dinero con reparaciones internas de paredes y
-							cielorasos más costosas.
+							ocasionan. Evitando mayores costos de dinero con reparaciones internas de paredes y
+							cielorasos más costosos.
 						</p>
 					</div>
 				</div>
 				<div class="col-lg-4">
 					<div class="services_item">
 						<img src="img/icon/soplete-icon.png" alt="">
-						<a href="#">
+						<a href="service.html">
 							<h4>Soluciones reales</h4>
 						</a>
 						<p>Realice su trabajo con aplicadores capacitados. Cumplimos con todas las normas de aplicación
-							y seguridad para un trabajo seguro, garantizando por escrito soluciones definitivas a
-							goteras y filtraciones. Nuestra amplia experiencia y profesionales
-							capacitados le asegura un trabajo con la calidad y garantia que su familia y ud. merecen.
+							y seguridad. Garantizando por escrito soluciones definitivas a
+							goteras y filtraciones. Nuestra amplia experiencia y aplicadores profesionales
+							le asegura un trabajo 100% efectivo.
 						</p>
 					</div>
 				</div>
 				<div class="col-lg-4">
 					<div class="services_item">
 						<img src="img/icon/servicio-icon.png" alt="">
-						<a href="#">
+						<a href="service.html">
 							<h4>¡Garantia por escrito!</h4>
 						</a>
 						<p> Brindamos soluciones definitivas a
-							filtraciones y goteras,con el empleo de materiales en productos de primera calidad
-							respaldados por Megaflex y Cima, avalados con garantía escrita de 10 años nos destacamos en
-							la colocación de membranas asfálticas con aluminio color para techos y geo-textil,
+							filtraciones y goteras, con el empleo de materiales en productos de primera calidad
+							respaldados por Megaflex y avalados con garantía escrita de 10 años. Nos destacamos en
+							la colocación de membranas asfálticas con aluminio, aluminio color para techos, y geo-textil
 							transitables para terrazas.</p>
 					</div>
 				</div>
@@ -314,11 +345,11 @@
 		</div>
 	</section>
 	<!--================End Services Area =================-->
-	<section class="counter_area">
+	<section class="counter_area" style="border-style: outset;">
 		<div class="container">
 			<div class="row m0 justify-content-center counter_inner">
 				<div class="counter_item col-lg-4">
-					<h4 class="counter">753</h4>
+					<h4 class="counter">1033</h4>
 					<p>TRABAJOS COMPLETADOS</p>
 				</div>
 				<div class="counter_item col-lg-4">
@@ -333,6 +364,47 @@
 			</div>
 		</div>
 	</section>
+	<br>
+	<br>
+	<h2 style="text-align: center;"> <span
+			style="background-color: #fab700; border-radius: 12px; padding: 4px;">NUESTROS
+			CLIENTES</span></h2>
+	<section class="clients_logo_area p_120">
+		<div class="container">
+			<div class="clients_slider owl-carousel">
+				<div class="item">
+					<img src="img/Membranas_mdp/empresas_locales/dar_salud_m.png" alt="">
+				</div>
+				<div class="item">
+					<img src="img/Membranas_mdp/empresas_locales/footer_logo_m.png" alt="">
+				</div>
+				<div class="item">
+					<img src="img/Membranas_mdp/empresas_locales/hotel_miami_m.png" alt="">
+				</div>
+				<div class="item">
+					<img src="img/Membranas_mdp/empresas_locales/la_casa_del_flexible_m.png" alt="">
+				</div>
+				<div class="item">
+					<img src="img/Membranas_mdp/empresas_locales/losfuegosHotel_m.png" alt="">
+				</div>
+				<div class="item">
+					<img src="img/Membranas_mdp/empresas_locales/paso-cars_m.png" alt="">
+				</div>
+				<div class="item">
+					<img src="img/Membranas_mdp/empresas_locales/rumenco.png" alt="">
+				</div>
+				<div class="item">
+					<img src="img/Membranas_mdp/empresas_locales/grupo-mattera-logo.png" alt="">
+				</div>
+				<div class="item">
+					<img src="img/Membranas_mdp/empresas_locales/logo1.png" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
 	<!--================Builder Image Area =================-->
 	<br>
 	<br>
@@ -341,313 +413,89 @@
 	<!--========End boton scroll down (scroll_div) =========-->
 	<section class="builder_area">
 		<div class="main_title" id="scroll_div_pintura">
-			<h2>Nuestros trabajos</h2>
-			<p> Brindamos un servicio profesional y confiable, en la calidad de nuestra mano de obra.</p>
+			<h2><span style="background-color: #fab700; border-radius: 12px;padding: 4px;">Nuestros trabajos</span></h2>
+			<br>
+			<p> CUMPLIMOS CON TODAS LAS NORMAS STANDARS DE APLICACIÓN <strong>IRAM Nº12627 Y EL I.A.I</strong>
+				(INSTITUTO ARGENTINO DE IMPERMEABILIZACION) PARA UN TRABAJO MÁS OPTIMO Y MÁS EFECTIVO</p>
 		</div>
 		<div class="row m0 builder_inner">
 			<div class="builder_item">
-				<img src="Img/Membranas_mdp/membranas/chapa/IMG-20190922-WA0161.jpg" alt="">
+				<img src="img/Membranas_mdp/paso_/1.jpg" alt="">
 				<div class="hover">
-					<h4>Reparaciones</h4>
-					<p> Contanos tus problemas y nosotros te lo reparamos.</p>
+					<h4>1</h4>
+					<p> ANALIZAR LAS PATOLOGIAS DE CADA OBRA NOS PERMITE DESARROLLAR UN SISTEMA IMPERMEABLE ESTRATEGICO.
+					</p>
 				</div>
 			</div>
 			<div class="builder_item">
-				<img src="img/Membranas_mdp/membranas/aluminio_color/IMG-20190922-WA0160.jpg" alt="">
+				<img src="img/Membranas_mdp/paso_/2.jpg" alt="">
 				<div class="hover">
-					<h4>Tenes goteras? </h4>
-					<p>Membranas mar del plata está para ayudarte.</p>
+					<h4>2</h4>
+					<p>VALORAMOS UNA CORRECTA LIMPIEZA DE SUPERFICIE, CON LA REMOCIÓN DE SUCIEDAD, HONGOS, ETC.</p>
 				</div>
 			</div>
 			<div class="builder_item">
-				<img src="img/Membranas_mdp/membranas/aluminio_color/IMG-20190922-WA0176.jpg" alt="">
+				<img src="img/Membranas_mdp/paso_/3.jpg">
 				<div class="hover">
-					<h4>Colocacion de membrana</h4>
-					<p>Contamos con profesionales calificados con experiencia en el rubro.</p>
+					<h4>3</h4>
+					<p>EL SUSTRATO DEBE SER TRATADO, PREVIO A COLOCAR MEMBRANA, CON UNA IMPRIMACIÓN ASFÁLTICA. </p>
 				</div>
 			</div>
 			<div class="builder_item">
-				<img src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0127.jpg" alt="">
+				<img src="img/Membranas_mdp/paso_/4.jpg" alt="">
 				<div class="hover">
-					<h4>Colocacion de membranas liquidas</h4>
-					<p>Contamos con los mejores productos y la mejor calidad para usted.</p>
+					<h4>4</h4>
+					<p>EL PEGADO DE LA MEMBRANA SE REALIZA CALENTANDO LA MISMA EN SU TOTALIDAD, POR MEDIO DE LAS LLAMAS
+						DEL SOPLETE UTILIZADO POR TÉCNICOS. </p>
 				</div>
 			</div>
 			<div class="builder_item">
-				<img src="img/Membranas_mdp/membranas/membrana_liquida/IMG-20190922-WA0126.jpg" alt="">
+				<img src="img/Membranas_mdp/paso_/5.jpg" alt="">
 				<div class="hover">
-					<h4>Te asesoramos en cualquier momento</h4>
-					<p>trabajamos exclusivamente para vos.</p>
+					<h4>5</h4>
+					<p>SELLADO DE LAS UNIONES DE LA MEMBRANA Y PINTURA PARA MAYOR PROTECCIÓN DE LAS MISMAS.</p>
 				</div>
 			</div>
 			<div class="builder_item">
-				<img src="img/Membranas_mdp/membranas/aluminio_color/IMG-20190922-WA0225.jpg" alt="">
+				<img src="img/Membranas_mdp/paso_/6.jpg" alt="">
 				<div class="hover">
-					<h4>Hablanos al whatsapp</h4>
-					<p>Te respondemos en segundos!</p>
+					<h4>6</h4>
+					<p>FINALIZACIÓN DEL TRABAJO CUMPLIENDO CON EXCELENCIA NUESTRO SERVICIO EN
+						IMPERMEABILIZACIÓN.</p>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="container">
+	<!-- <section class="container justify-content-center">
 		<div class="row">
-			<div class="mx-auto">
+			<div class="col-12" style="display:block;
+			margin:a;">
 
 				<a target=_blank
 					href="https://wa.me/5492236683801?text=Hola!%20Me%20interesaria%20un%20presupuesto%20para%20un%20trabajo">
 					<img src="img/Membranas_mdp/wpp/1-contacta-por-whatsapp-agencia-google-ads.png">
 			</div>
 		</div>
-	</section>
-	<!--================End Builder Image Area =================-->
+	</section> -->
 
-	<!--================Team Area =================-->
-	<!-- <section class="team_area p_120">
-			<div class="container">
-				<div class="main_title">
-					 <h2>Trabajos de pintura</h2>
-					<p>Conta con la calidad profesionales calificados</p>
-				</div>
-				<div class="row team_inner">
-					<div class="col-lg-3 col-sm-6">
-						<div class="team_item">
-							<div class="team_img">
-								<img class="img-fluid" src="img/team/team-1.jpg" alt="">
-								<div class="hover">
-									<a href="#"><i class="fa fa-facebook"></i></a>
-									<a href="#"><i class="fa fa-twitter"></i></a>
-									<a href="#"><i class="fa fa-linkedin"></i></a>
-								</div>
-							</div>
-							<div class="team_name">
-								<h4>Ethel Davis</h4>
-								<p>Managing Director (Sales)</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3 col-sm-6">
-						<div class="team_item">
-							<div class="team_img">
-								<img class="img-fluid" src="img/team/team-2.jpg" alt="">
-								<div class="hover">
-									<a href="#"><i class="fa fa-facebook"></i></a>
-									<a href="#"><i class="fa fa-twitter"></i></a>
-									<a href="#"><i class="fa fa-linkedin"></i></a>
-								</div>
-							</div>
-							<div class="team_name">
-								<h4>Ethel Davis</h4>
-								<p>Managing Director (Sales)</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3 col-sm-6">
-						<div class="team_item">
-							<div class="team_img">
-								<img class="img-fluid" src="img/team/team-3.jpg" alt="">
-								<div class="hover">
-									<a href="#"><i class="fa fa-facebook"></i></a>
-									<a href="#"><i class="fa fa-twitter"></i></a>
-									<a href="#"><i class="fa fa-linkedin"></i></a>
-								</div>
-							</div>
-							<div class="team_name">
-								<h4>Ethel Davis</h4>
-								<p>Managing Director (Sales)</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3 col-sm-6">
-						<div class="team_item">
-							<div class="team_img">
-								<img class="img-fluid" src="img/team/team-4.jpg" alt="">
-								<div class="hover">
-									<a href="#"><i class="fa fa-facebook"></i></a>
-									<a href="#"><i class="fa fa-twitter"></i></a>
-									<a href="#"><i class="fa fa-linkedin"></i></a>
-								</div>
-							</div>
-							<div class="team_name">
-								<h4>Ethel Davis</h4>
-								<p>Managing Director (Sales)</p>
-							</div>
-						</div>
-					</div>
-				</div> 
-				</div>
-		</section> 
-		================End Team Area =================-->
 
-	<!--================Counter Area =================-->
-	<!-- <section class="counter_area">
-			<div class="container">
-				<div class="row m0 counter_inner">
-					<div class="counter_item">
-						<h4 class="counter">596</h4>
-						<p>Projects Completed</p>
-					</div>
-					<div class="counter_item">
-						<h4 class="counter">552</h4>
-						<p>Really Happy Clients</p>
-					</div>
-					<div class="counter_item">
-						<h4 class="counter">5962</h4>
-						<p>Total Tasks Completed</p>
-					</div>
-					<div class="counter_item">
-						<h4 class="counter">1009</h4>
-						<p>Cups of Coffee Taken</p>
-					</div>
-					<div class="counter_item">
-						<h4 class="counter">435</h4>
-						<p>In House Professionals</p>
-					</div>
-				</div>
-			</div>
-		</section> -->
-	<!--================End Counter Area =================-->
 
-	<!--================Feature Area =================-->
-	<!-- <section class="feature_area p_120">
-			<div class="container">
-				<div class="main_title">
-					<h2>Some Features that Made us Unique</h2>
-					<p>Who are in extremely love with eco friendly system.</p>
-				</div>
-				<div class="row feature_inner">
-					<div class="col-lg-4 col-md-6">
-						<div class="feature_item">
-							<h4><i class="lnr lnr-user"></i>Expert Technicians</h4>
-							<p>Usage of the Internet is becoming more common due to rapid advancement of technology and
-								power.</p>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6">
-						<div class="feature_item">
-							<h4><i class="lnr lnr-license"></i>Professional Service</h4>
-							<p>Usage of the Internet is becoming more common due to rapid advancement of technology and
-								power.</p>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6">
-						<div class="feature_item">
-							<h4><i class="lnr lnr-phone"></i>Great Support</h4>
-							<p>Usage of the Internet is becoming more common due to rapid advancement of technology and
-								power.</p>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6">
-						<div class="feature_item">
-							<h4><i class="lnr lnr-rocket"></i>Technical Skills</h4>
-							<p>Usage of the Internet is becoming more common due to rapid advancement of technology and
-								power.</p>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6">
-						<div class="feature_item">
-							<h4><i class="lnr lnr-diamond"></i>Highly Recomended</h4>
-							<p>Usage of the Internet is becoming more common due to rapid advancement of technology and
-								power.</p>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6">
-						<div class="feature_item">
-							<h4><i class="lnr lnr-bubble"></i>Positive Reviews</h4>
-							<p>Usage of the Internet is becoming more common due to rapid advancement of technology and
-								power.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section> -->
-	<!--================End Feature Area =================-->
-
-	<!--================Testimonials Area =================-->
-	<!-- <section class="testimonials_area p_120">
-			<div class="container">
-				<div class="testi_slider owl-carousel">
-					<div class="item">
-						<div class="testi_item">
-							<div class="media">
-								<div class="d-flex">
-									<img src="img/testimonials/testi-1.png" alt="">
-								</div>
-								<div class="media-body">
-									<p>Accessories Here you can find the best computer accessory for your laptop,
-										monitor, printer, scanner, speaker, projector, hardware.</p>
-									<h4>Mark Alviro Wiens</h4>
-									<h5>CEO at Google</h5>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="testi_item">
-							<div class="media">
-								<div class="d-flex">
-									<img src="img/testimonials/testi-2.png" alt="">
-								</div>
-								<div class="media-body">
-									<p>Accessories Here you can find the best computer accessory for your laptop,
-										monitor, printer, scanner, speaker, projector, hardware.</p>
-									<h4>Mark Alviro Wiens</h4>
-									<h5>CEO at Google</h5>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section> -->
-	<!--================End Testimonials Area =================-->
-
-<<<<<<< HEAD
-	<!--================Clients Logo Area =================-->
-	<!-- <section class="clients_logo_area p_120">
-=======
-		<!--================Clients Logo Area =================-->
-		<section class="clients_logo_area p_120">
->>>>>>> 5e31fa1e992405507b1f2b69356c2ec0d412dcad
-			<div class="container">
-				<div class="clients_slider owl-carousel">
-					<div class="item">
-						<img src="img/Membranas_mdp/empresas_locales/dar_salud_m.png" alt="">
-					</div>
-					<div class="item">
-						<img src="img/Membranas_mdp/empresas_locales/footer_logo_m.png" alt="">
-					</div>
-					<div class="item">
-						<img src="img/Membranas_mdp/empresas_locales/hotel_miami_m.png" alt="">
-					</div>
-					<div class="item">
-						<img src="img/Membranas_mdp/empresas_locales/la_casa_del_flexible_m.png" alt="">
-					</div>
-					<div class="item">
-						<img src="img/Membranas_mdp/empresas_locales/losfuegosHotel_m.png" alt="">
-					</div>
-					<div class="item">
-						<img src="img/Membranas_mdp/empresas_locales/paso-cars_m.png" alt="">
-					</div>
-				</div>
-			</div>
-<<<<<<< HEAD
-		</section> -->
 	<!--================End Clients Logo Area =================-->
-=======
-		</section>
-		<!--================End Clients Logo Area =================-->
->>>>>>> 5e31fa1e992405507b1f2b69356c2ec0d412dcad
 
 	<!--================ start footer Area  =================-->
 	<footer class="footer-area p_120">
 		<div class="container">
-			<div class="row">
+			<div class="row" style="text-align: center;">
 				<div class="col-lg-3  col-md-6 col-sm-6">
 					<div class="single-footer-widget ab_wd">
 						<h6 class="footer_title" id="DivIdToScrollNosotros"><a>Sobre nosotros</a></h6>
-						<h5 style="color:whitesmoke; font-size: 15px;">Confie la seguridad de su hogar con
-							profesionales de calidad, mas de 20 años de experiencia y garantia por escrito</h5>
+						<h5 style="color:whitesmoke; font-size: 15px; text-align: left;">Somos una empresa competitiva,
+							con honestidad
+							tecnica y comercial en la ciudad de mar del plata y zonas de influencia. brindamos un
+							servicio 100%, responsable, rapido y efectivo, contra las goteras y filtraciones de su
+							hogar.
+						</h5>
 					</div>
 					<br>
 					<br>
@@ -656,9 +504,10 @@
 
 					<br>
 					<!-- Start of CuterCounter Code -->
-					<a href="https://www.cutercounter.com/spanish/" target="_blank"><img
-							src="https://www.cutercounter.com/hits.php?id=gcxnnk&nd=6&style=72" border="0"
-							alt="contador de visitas"></a>
+					<a href="https://www.cerotec.net/estadisticas-129270/membranasmardelplata.com"
+						title="ver mis estadísticas"><img src="https://www.cerotec.net/contador.php?t=5&s=4&i=129270"
+							alt="www.cerotec.net"></a> <br>
+
 					<!-- End of CuterCounter Code -->
 				</div>
 
@@ -726,6 +575,8 @@
 
 	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v4.0">
 	</script>
+
+
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/popper.js"></script>
 	<script src="js/bootstrap.min.js"></script>

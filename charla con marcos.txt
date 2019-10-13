@@ -16,5 +16,24 @@ nuestros trabajos
 
 
 membranasmardelplata@gmail.com
-				
+
+
+
+
+
+
+charla con marcos 2 
+
+
+
+
+-cambiar icono de llamado al accion TEL , por tel negro. ---listo
+-whatsapp intermitente
+- cambiar fotos --------------------------------------------listo
+-contador buscar uno con ip
+
+
+-reemplazar footer de elements en todo.---------------------listo
+-agregar a logo R de registrado
+-logos de zanneti, rumenco.
 		
